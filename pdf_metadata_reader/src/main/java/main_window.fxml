@@ -22,12 +22,12 @@
             </HBox>
          </children>
       </AnchorPane>
-      <JFXButton buttonType="RAISED" layoutX="160.0" layoutY="279.0" prefHeight="74.0" prefWidth="207.0" ripplerFill="#ff193f" style="-fx-background-color: #00AAD1;" text="Archivos Cargados" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+      <JFXButton buttonType="RAISED" layoutX="160.0" layoutY="279.0" onMouseClicked="#uploaded_files_window" prefHeight="74.0" prefWidth="207.0" ripplerFill="#ff193f" style="-fx-background-color: #00AAD1;" text="Archivos Cargados" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
          <font>
             <Font name="Century Gothic" size="16.0" />
          </font>
       </JFXButton>
-      <JFXButton buttonType="RAISED" layoutX="160.0" layoutY="194.0" prefHeight="74.0" prefWidth="207.0" ripplerFill="#ff193f" style="-fx-background-color: #00AAD1;" text="Leer Archivo" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+      <JFXButton buttonType="RAISED" layoutX="160.0" layoutY="194.0" onMouseClicked="#load_files_window" prefHeight="74.0" prefWidth="207.0" ripplerFill="#ff193f" style="-fx-background-color: #00AAD1;" text="Leer Archivo" textFill="WHITE" textOverrun="CENTER_ELLIPSIS" wrapText="true">
          <font>
             <Font name="Century Gothic" size="16.0" />
          </font>
