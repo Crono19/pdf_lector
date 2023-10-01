@@ -11,7 +11,7 @@
    <children>
       <ImageView fitHeight="150.0" fitWidth="450.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
-            <Image url="@../../../../../../../../../../Desktop/main_banner.png" />
+            <Image url="@java/images/banner.png" />
          </image>
       </ImageView>
       <Button layoutX="79.0" layoutY="191.0" mnemonicParsing="false" prefHeight="72.0" prefWidth="292.0" text="LEER ARCHIVO" textOverrun="LEADING_ELLIPSIS">
