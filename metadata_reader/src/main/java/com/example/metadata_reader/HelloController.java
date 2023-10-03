@@ -7,14 +7,12 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
+import javafx.stage.DirectoryChooser;
 import java.io.IOException;
 import java.io.File;
-import java.util.List;
 import java.util.Objects;
 
 
@@ -22,7 +20,7 @@ public class HelloController {
 
     private Stage stage;
     private Scene scene;
-    private Parent root;
+    private String path;
 
     public void switchToUploadedFilesWindow(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("uploaded_files_window.fxml")));
@@ -50,24 +48,16 @@ public class HelloController {
 
     @FXML
     void handleBtnOpenFile(ActionEvent event) {
-        fc.setTitle("Leer PDF");
+        DirectoryChooser dc = new DirectoryChooser();
+        dc.setTitle("Select a Folder");
 
-        fc.setInitialDirectory(new File(System.getProperty("user.home")));
+        File selectedDirectory = dc.showDialog(new Stage());
 
-        fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("PDF", "*.pdf*"));
-
-        List<File> files = fc.showOpenMultipleDialog(null);
-
-        for (int i = 0; i < files.size(); i++){
-
-            if(files != null){
-            path_text.appendText(files.get(i).getAbsolutePath() + "\n");
-            } else {
-                System.out.println("Invalid file");
-            }
+        if (selectedDirectory != null) {
+            path_text.appendText(selectedDirectory.getAbsolutePath() + "\n");
+            path = selectedDirectory.getAbsolutePath();
+        } else {
+            System.out.println("No directory selected");
         }
-
     }
-
-
 }
