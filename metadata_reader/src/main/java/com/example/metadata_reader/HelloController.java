@@ -49,11 +49,19 @@ public class HelloController {
 
     @FXML
     void handleBtnOpenFile(ActionEvent event) {
-        fc.setTitle("My File Chooser");
+        fc.setTitle("Leer PDF");
+
+        fc.setInitialDirectory(new File(System.getProperty("user.home")));
+
+        fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("PDF", "*.pdf*"));
 
         File file = fc.showOpenDialog(null);
 
-        path_text.appendText(file.getAbsolutePath());
+        if(file != null){
+        path_text.appendText(file.getAbsolutePath() + "\n");
+        } else {
+            System.out.println("Invalid file");
+        }
 
     }
 
