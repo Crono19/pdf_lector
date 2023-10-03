@@ -16,7 +16,7 @@
             <Image url="@java/images/banner_load.png" />
          </image>
       </ImageView>
-      <Button fx:id="load_btn" layoutX="69.0" layoutY="136.0" mnemonicParsing="false" text="Cargar archivo" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="load_btn" layoutX="69.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleBtnOpenFile" text="Cargar archivo" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
