@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.io.File;
+import java.util.List;
 import java.util.Objects;
 
 
@@ -55,12 +56,15 @@ public class HelloController {
 
         fc.getExtensionFilters().add(new FileChooser.ExtensionFilter("PDF", "*.pdf*"));
 
-        File file = fc.showOpenDialog(null);
+        List<File> files = fc.showOpenMultipleDialog(null);
 
-        if(file != null){
-        path_text.appendText(file.getAbsolutePath() + "\n");
-        } else {
-            System.out.println("Invalid file");
+        for (int i = 0; i < files.size(); i++){
+
+            if(files != null){
+            path_text.appendText(files.get(i).getAbsolutePath() + "\n");
+            } else {
+                System.out.println("Invalid file");
+            }
         }
 
     }

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="545.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.metadata_reader.HelloController">
+<AnchorPane prefHeight="628.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.metadata_reader.HelloController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="673.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
@@ -21,72 +21,72 @@
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <Label layoutX="53.0" layoutY="198.0" text="Tamaño de archivo:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="73.0" layoutY="276.0" text="Tamaño de archivo:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="228.0" text="Tamaño de página:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="75.0" layoutY="306.0" text="Tamaño de página:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="258.0" text="Número de páginas:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="69.0" layoutY="336.0" text="Número de páginas:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="48.0" layoutY="288.0" text="Título:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="138.0" layoutY="366.0" text="Título:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="48.0" layoutY="318.0" text="Asunto:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="131.0" layoutY="396.0" text="Asunto:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="348.0" text="Palabras clave:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="97.0" layoutY="426.0" text="Palabras clave:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="378.0" text="Tipo de archivo PDF:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="68.0" layoutY="456.0" text="Tipo de archivo PDF:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="408.0" text="Versión de PDF:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="91.0" layoutY="486.0" text="Versión de PDF:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="438.0" text="Aplicación de creación:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="56.0" layoutY="516.0" text="Aplicación de creación:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="468.0" text="Lista de imagenes:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="78.0" layoutY="546.0" text="Lista de imagenes:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="53.0" layoutY="498.0" text="Lista de fuentes:" AnchorPane.rightAnchor="503.0">
+      <Label layoutX="89.0" layoutY="576.0" text="Lista de fuentes:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <TextField layoutX="193.0" layoutY="185.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="215.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="245.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="275.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="305.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="335.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="365.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="395.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="425.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="455.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextField layoutX="193.0" layoutY="485.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="193.0" />
-      <TextArea fx:id="path_text" layoutX="193.0" layoutY="129.0" prefHeight="44.0" prefWidth="427.0" />
+      <TextField layoutX="191.0" layoutY="263.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="293.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="323.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="353.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="383.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="413.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="443.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="473.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="503.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="533.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextField layoutX="191.0" layoutY="563.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
+      <TextArea fx:id="path_text" layoutX="193.0" layoutY="129.0" prefHeight="132.0" prefWidth="427.0" />
    </children>
 </AnchorPane>
