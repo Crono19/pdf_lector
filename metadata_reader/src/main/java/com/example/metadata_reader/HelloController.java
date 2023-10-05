@@ -13,7 +13,13 @@ import javafx.stage.Stage;
 import javafx.stage.DirectoryChooser;
 import java.io.IOException;
 import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
+import org.apache.pdfbox.Loader;
+import org.apache.pdfbox.pdmodel.PDDocument;
+import org.apache.pdfbox.pdmodel.PDDocumentInformation;
+import org.apache.pdfbox.text.PDFTextStripper;
 
 
 public class HelloController {
@@ -21,6 +27,8 @@ public class HelloController {
     private Stage stage;
     private Scene scene;
     private String path;
+
+    private List<PDFFile> files = new ArrayList<>();
 
     public void switchToUploadedFilesWindow(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("uploaded_files_window.fxml")));
@@ -48,6 +56,8 @@ public class HelloController {
 
     @FXML
     void handleBtnOpenFile(ActionEvent event) {
+        List<String> paths = new ArrayList<>();
+
         DirectoryChooser dc = new DirectoryChooser();
         dc.setTitle("Select a Folder");
 
@@ -56,8 +66,38 @@ public class HelloController {
         if (selectedDirectory != null) {
             path_text.appendText(selectedDirectory.getAbsolutePath() + "\n");
             path = selectedDirectory.getAbsolutePath();
+
+            reader.resortFolder(path, paths);
+
+            for (String pdfFilePath : paths) {
+                File pdfFile = new File(pdfFilePath);
+
+                try (PDDocument document = Loader.loadPDF(pdfFile)) {
+                    PDDocumentInformation info = document.getDocumentInformation();
+
+                    String name = pdfFile.getName();
+                    String title = info.getTitle();
+                    String creator = info.getCreator();
+                    String pdfVersion = String.valueOf(document.getVersion());
+                    long fileSize = pdfFile.length();
+                    int pageCount = document.getNumberOfPages();
+                    String keywords = info.getKeywords();
+                    PDFTextStripper stripper = new PDFTextStripper();
+                    String matter = stripper.getText(document);
+
+                    files.add(new PDFFile(name, fileSize, pageCount, title, matter, keywords, "PDF", pdfVersion, creator));
+
+                } catch (IOException e) {
+                    e.printStackTrace(System.out);
+                    System.out.println("Error reading PDF file: " + pdfFilePath);
+                }
+            }
         } else {
             System.out.println("No directory selected");
+        }
+
+        for (PDFFile file : files){
+            System.out.println(file.getName());
         }
     }
 }
