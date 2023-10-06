@@ -8,6 +8,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.DirectoryChooser;
@@ -28,7 +30,8 @@ public class HelloController {
     private Scene scene;
     private String path;
 
-    private List<PDFFile> files = new ArrayList<>();
+    private List<PDFFile> PDFFiles = new ArrayList<>();
+    private int index = 0;
 
     public void switchToUploadedFilesWindow(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("uploaded_files_window.fxml")));
@@ -66,38 +69,57 @@ public class HelloController {
         if (selectedDirectory != null) {
             path_text.appendText(selectedDirectory.getAbsolutePath() + "\n");
             path = selectedDirectory.getAbsolutePath();
-
-            reader.resortFolder(path, paths);
-
-            for (String pdfFilePath : paths) {
-                File pdfFile = new File(pdfFilePath);
-
-                try (PDDocument document = Loader.loadPDF(pdfFile)) {
-                    PDDocumentInformation info = document.getDocumentInformation();
-
-                    String name = pdfFile.getName();
-                    String title = info.getTitle();
-                    String creator = info.getCreator();
-                    String pdfVersion = String.valueOf(document.getVersion());
-                    long fileSize = pdfFile.length();
-                    int pageCount = document.getNumberOfPages();
-                    String keywords = info.getKeywords();
-                    PDFTextStripper stripper = new PDFTextStripper();
-                    String matter = stripper.getText(document);
-
-                    files.add(new PDFFile(name, fileSize, pageCount, title, matter, keywords, "PDF", pdfVersion, creator));
-
-                } catch (IOException e) {
-                    e.printStackTrace(System.out);
-                    System.out.println("Error reading PDF file: " + pdfFilePath);
-                }
-            }
+            PDFFiles = reader.getFiles(path);
         } else {
             System.out.println("No directory selected");
         }
+        setInfo();
+    }
 
-        for (PDFFile file : files){
-            System.out.println(file.getName());
+    @FXML private TextField txtName;
+    @FXML private TextField txtSize;
+    @FXML private TextField txtPageSize;
+    @FXML private TextField txtPageCount;
+    @FXML private TextField txtTitle;
+    @FXML private TextField txtMatter;
+    @FXML private TextField txtKeyWords;
+    @FXML private TextField txtTypePDFFile;
+    @FXML private TextField txtPDFVersion;
+    @FXML private TextField txtCreationApp;
+    @FXML private TextField txtImages;
+    @FXML private TextField txtFonts;
+
+
+    private void setInfo(){
+        txtName.setText(PDFFiles.get(index).getName());
+        txtSize.setText(String.valueOf(PDFFiles.get(index).getSize()));
+        txtPageSize.setText(PDFFiles.get(index).getPageSize());
+        txtPageCount.setText(String.valueOf(PDFFiles.get(index).getPageCount()));
+        txtTitle.setText(PDFFiles.get(index).getTitle());
+        txtMatter.setText(PDFFiles.get(index).getMatter());
+        txtKeyWords.setText(PDFFiles.get(index).getKeyWords());
+        txtTypePDFFile.setText(PDFFiles.get(index).getTypePDFFile());
+        txtPDFVersion.setText(PDFFiles.get(index).getVersion());
+        txtCreationApp.setText(PDFFiles.get(index).getCreationApp());
+        txtImages.setText(String.valueOf(PDFFiles.get(index).getImages()));
+        txtFonts.setText(String.valueOf(PDFFiles.get(index).getFonts()));
+    }
+
+    public void forwardFile(MouseEvent event) throws IOException {
+        if (index == PDFFiles.size() - 1){
+            index = 0;
+        } else{
+            index++;
         }
+        setInfo();
+    }
+
+    public void backwardFile(MouseEvent event) throws IOException {
+        if (index == 0){
+            index = PDFFiles.size() - 1;
+        } else{
+            index--;
+        }
+        setInfo();
     }
 }
