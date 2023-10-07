@@ -28,7 +28,9 @@ public class HelloController {
 
     private Stage stage;
     private Scene scene;
-    private String path;
+    private String root;
+
+    String path = methods.getProjectRootDirectory() + File.separator + "files.txt";
 
     private List<PDFFile> PDFFiles = new ArrayList<>();
     private int index = 0;
@@ -66,6 +68,7 @@ public class HelloController {
 
         File selectedDirectory = dc.showDialog(new Stage());
 
+
         if (selectedDirectory != null) {
             path_text.appendText(selectedDirectory.getAbsolutePath() + "\n");
             path = selectedDirectory.getAbsolutePath();
@@ -88,6 +91,27 @@ public class HelloController {
     @FXML private TextField txtCreationApp;
     @FXML private TextField txtImages;
     @FXML private TextField txtFonts;
+
+    public void saveFile(ActionEvent event) throws IOException {
+        methods.appendToTXT(path, txtName.getText(), txtSize.getText(), txtPageSize.getText(), txtPageCount.getText(), txtTitle.getText(), txtMatter.getText(), txtKeyWords.getText(), txtTypePDFFile.getText(), txtPDFVersion.getText(), txtCreationApp.getText(), txtImages.getText(), txtFonts.getText());
+
+        txtName.setText("");
+        txtSize.setText("");
+        txtPageSize.setText("");
+        txtPageCount.setText("");
+        txtTitle.setText("");
+        txtMatter.setText("");
+        txtKeyWords.setText("");
+        txtTypePDFFile.setText("");
+        txtPDFVersion.setText("");
+        txtCreationApp.setText("");
+        txtImages.setText("");
+        txtFonts.setText("");
+
+
+    }
+
+
 
 
     private void setInfo(){

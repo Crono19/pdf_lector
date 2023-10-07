@@ -24,6 +24,11 @@ public class PDFFile {
         this.fonts = fonts;
     }
 
+    public String getChain(){
+        return this.name + "|" + this.size + "|" + this.pageSize + "|" + this.pageCount + "|" + this.title + "|" + this.matter
+                + "|" + this.keyWords + "|" + this.typePDFFile + "|" + this.version + "|" + this.creationApp + "|" + this.images + "|" + this.fonts;
+    }
+
     public String getName(){
         return name;
     }
@@ -69,4 +74,6 @@ public class PDFFile {
     public Integer getFonts(){
         return fonts;
     }
+
+
 }
