@@ -11,11 +11,12 @@ import org.apache.pdfbox.pdmodel.graphics.PDXObject;
 import org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject;
 import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 import org.apache.pdfbox.text.PDFTextStripper;
-import org.apache.pdfbox.pdmodel.font.PDType0Font;
 
 import java.awt.image.RenderedImage;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -134,5 +135,23 @@ public class reader {
             pageSize = df.format(width) + " x " + df.format(height);
         }
         return pageSize;
+    }
+
+    private static String getProjectRootDirectory() {
+        return System.getProperty("user.dir");
+    }
+
+    public static void saveFiles(List<PDFFile> files) {
+        File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
+
+        for (PDFFile pdfFile : files) {
+            try {
+                PrintWriter pw = new PrintWriter(new FileWriter(file, true));
+                pw.println(pdfFile.getChain());
+                pw.close();
+            } catch (IOException ex) {
+                ex.printStackTrace(System.out);
+            };
+        }
     }
 }
