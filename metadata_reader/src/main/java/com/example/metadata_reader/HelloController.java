@@ -28,9 +28,8 @@ public class HelloController {
 
     private Stage stage;
     private Scene scene;
-    private String root;
 
-    String path = methods.getProjectRootDirectory() + File.separator + "files.txt";
+    private String path;
 
     private List<PDFFile> PDFFiles = new ArrayList<>();
     private int index = 0;
@@ -93,7 +92,7 @@ public class HelloController {
     @FXML private TextField txtFonts;
 
     public void saveFile(ActionEvent event) throws IOException {
-        methods.appendToTXT(path, txtName.getText(), txtSize.getText(), txtPageSize.getText(), txtPageCount.getText(), txtTitle.getText(), txtMatter.getText(), txtKeyWords.getText(), txtTypePDFFile.getText(), txtPDFVersion.getText(), txtCreationApp.getText(), txtImages.getText(), txtFonts.getText());
+        reader.saveFiles(PDFFiles);
 
         txtName.setText("");
         txtSize.setText("");
@@ -107,12 +106,7 @@ public class HelloController {
         txtCreationApp.setText("");
         txtImages.setText("");
         txtFonts.setText("");
-
-
     }
-
-
-
 
     private void setInfo(){
         txtName.setText(PDFFiles.get(index).getName());
