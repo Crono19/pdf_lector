@@ -140,5 +140,8 @@ public class HelloController {
         }
         setInfo();
     }
+    public void clickLoadBtn() throws IOException {
+
+    }
 
 }

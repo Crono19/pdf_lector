@@ -154,9 +154,5 @@ public class reader {
             }
         }
     }
-    public void readFile(){
-        String string = getChain;
-        String[] parts = string.split("/___/");
-        String part1 = parts[0];
-        System.out.println(part1);
+
 }
