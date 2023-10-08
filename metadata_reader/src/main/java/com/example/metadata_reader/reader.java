@@ -13,10 +13,8 @@ import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
 import org.apache.pdfbox.text.PDFTextStripper;
 
 import java.awt.image.RenderedImage;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
+import java.nio.file.FileSystemNotFoundException;
 import java.text.DecimalFormat;
 import java.util.*;
 
@@ -154,5 +152,23 @@ public class reader {
             }
         }
     }
+    public static void readFiles(List<PDFFile> files) throws IOException {
+        File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
+        for (PDFFile pdfFile : files){
+            try{
+                BufferedReader br = new BufferedReader(new FileReader(file));
+                String leer = br.readLine();
+                while (leer != null){
+                    System.out.println(leer);
+                    leer = br.readLine();
+                }
+            br.close();
+        }catch (FileSystemNotFoundException ex) {
+            ex.printStackTrace();
+        } catch (IOException ex){
+                ex.printStackTrace(System.out);
+            }
+    }
 
+}
 }

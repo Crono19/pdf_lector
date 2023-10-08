@@ -140,7 +140,35 @@ public class HelloController {
         }
         setInfo();
     }
+
+    @FXML private TextField txtCreationApp2;
+    @FXML private TextField txtFonts2;
+    @FXML private TextField txtImages2;
+    @FXML private TextField txtKeyWords2;
+    @FXML private TextField txtMatter2;
+    @FXML private TextField txtName2;
+    @FXML private TextField txtPDFVersion2;
+    @FXML private TextField txtPageCount2;
+    @FXML private TextField txtPageSize2;
+    @FXML private TextField txtSize2;
+    @FXML private TextField txtTitle2;
+    @FXML private TextField txtTypePDFFile2;
+
     public void clickLoadBtn() throws IOException {
+        reader.readFiles(PDFFiles);
+
+        txtName2.setText("");
+        txtSize2.setText("");
+        txtPageSize2.setText("");
+        txtPageCount2.setText("");
+        txtTitle2.setText("");
+        txtMatter2.setText("");
+        txtKeyWords2.setText("");
+        txtTypePDFFile2.setText("");
+        txtPDFVersion2.setText("");
+        txtCreationApp2.setText("");
+        txtImages2.setText("");
+        txtFonts2.setText("");
 
     }
 

@@ -73,17 +73,4 @@ public class PDFFile {
         return fonts;
     }
 
-    public String loadFile(){
-
-        String string = getChain();
-        String[] parts = string.split("/___/");
-        for (int i = 0; i < parts.length; i++) {
-            if (i % 11 == 0) {
-                PDFFile[] files = new PDFFile[12];
-                for (int j = 0; j < 12; j++) {
-                    files[j] = parts[i - j];
-                }
-    }
-        }
-    }
 }

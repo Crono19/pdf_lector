@@ -70,24 +70,24 @@
             <Font size="11.0" />
          </font>
       </Label>
-      <TextField fx:id="txtSize" layoutX="190.0" layoutY="253.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtPageSize" layoutX="190.0" layoutY="283.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtPageCount" layoutX="190.0" layoutY="313.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtTitle" layoutX="190.0" layoutY="343.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtMatter" layoutX="190.0" layoutY="373.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtKeyWords" layoutX="190.0" layoutY="403.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtTypePDFFile" layoutX="190.0" layoutY="433.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtPDFVersion" layoutX="190.0" layoutY="463.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtCreationApp" layoutX="190.0" layoutY="493.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtImages" layoutX="190.0" layoutY="523.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtFonts" layoutX="190.0" layoutY="553.0" prefHeight="26.0" prefWidth="427.0" />
-      <TextField fx:id="txtName" layoutX="190.0" layoutY="222.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtSize2" layoutX="190.0" layoutY="253.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtPageSize2" layoutX="190.0" layoutY="283.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtPageCount2" layoutX="190.0" layoutY="313.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtTitle2" layoutX="190.0" layoutY="343.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtMatter2" layoutX="190.0" layoutY="373.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtKeyWords2" layoutX="190.0" layoutY="403.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtTypePDFFile2" layoutX="190.0" layoutY="433.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtPDFVersion2" layoutX="190.0" layoutY="463.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtCreationApp2" layoutX="190.0" layoutY="493.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtImages2" layoutX="190.0" layoutY="523.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtFonts2" layoutX="190.0" layoutY="553.0" prefHeight="26.0" prefWidth="427.0" />
+      <TextField fx:id="txtName2" layoutX="190.0" layoutY="222.0" prefHeight="26.0" prefWidth="427.0" />
       <Label layoutX="127.0" layoutY="229.0" text="Nombre:">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Button layoutX="281.0" layoutY="154.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="112.0" text="Ver Archivo">
+      <Button layoutX="281.0" layoutY="154.0" mnemonicParsing="false" onAction="#clickLoadBtn" prefHeight="35.0" prefWidth="112.0" text="Ver Archivo">
          <font>
             <Font name="Century Gothic" size="12.0" />
          </font>
