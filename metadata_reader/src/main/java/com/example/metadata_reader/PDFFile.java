@@ -1,7 +1,5 @@
 package com.example.metadata_reader;
 
-import java.util.List;
-
 public class PDFFile {
     private final String name; private final double size; private final String pageSize;
     private final Integer pageCount; private final String title; private final String matter;
@@ -25,8 +23,8 @@ public class PDFFile {
     }
 
     public String getChain(){
-        return this.name + "|" + this.size + "|" + this.pageSize + "|" + this.pageCount + "|" + this.title + "|" + this.matter
-                + "|" + this.keyWords + "|" + this.typePDFFile + "|" + this.version + "|" + this.creationApp + "|" + this.images + "|" + this.fonts;
+        return this.name + "/___/" + this.size + "/___/" + this.pageSize + "/___/" + this.pageCount + "/___/" + this.title + "/___/" + this.matter
+                + "/___/" + this.keyWords + "/___/" + this.typePDFFile + "/___/" + this.version + "/___/" + this.creationApp + "/___/" + this.images + "/___/" + this.fonts;
     }
 
     public String getName(){

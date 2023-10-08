@@ -151,7 +151,12 @@ public class reader {
                 pw.close();
             } catch (IOException ex) {
                 ex.printStackTrace(System.out);
-            };
+            }
         }
     }
+    public void readFile(){
+        String string = getChain;
+        String[] parts = string.split("/___/");
+        String part1 = parts[0];
+        System.out.println(part1);
 }
