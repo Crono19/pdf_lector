@@ -23,7 +23,7 @@ public class PDFFile {
     }
 
     public String getChain(){
-        return this.name + "/___/" + this.size + "/___/" + this.pageSize + "/___/" + this.pageCount + "/___/" + this.title + "/___/" + this.matter
+        return this.name + "/___/" + this.size + "/___/" + this.pageSize + "/___/" + this.pageCount + "/___/" + this.title + "/___/" + matter
                 + "/___/" + this.keyWords + "/___/" + this.typePDFFile + "/___/" + this.version + "/___/" + this.creationApp + "/___/" + this.images + "/___/" + this.fonts;
     }
 

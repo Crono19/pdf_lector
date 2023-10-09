@@ -18,10 +18,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import org.apache.pdfbox.Loader;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDDocumentInformation;
-import org.apache.pdfbox.text.PDFTextStripper;
 
 
 public class HelloController {
@@ -40,7 +36,7 @@ public class HelloController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+        index = 0;
     }
 
     public void switchToLoadFilesWindow(ActionEvent event) throws IOException {
@@ -49,7 +45,7 @@ public class HelloController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+        index = 0;
     }
     @FXML
     private Button load_btn;
@@ -141,35 +137,9 @@ public class HelloController {
         setInfo();
     }
 
-    @FXML private TextField txtCreationApp2;
-    @FXML private TextField txtFonts2;
-    @FXML private TextField txtImages2;
-    @FXML private TextField txtKeyWords2;
-    @FXML private TextField txtMatter2;
-    @FXML private TextField txtName2;
-    @FXML private TextField txtPDFVersion2;
-    @FXML private TextField txtPageCount2;
-    @FXML private TextField txtPageSize2;
-    @FXML private TextField txtSize2;
-    @FXML private TextField txtTitle2;
-    @FXML private TextField txtTypePDFFile2;
-
-    public void clickLoadBtn() throws IOException {
-        reader.readFiles(PDFFiles);
-
-        txtName2.setText("");
-        txtSize2.setText("");
-        txtPageSize2.setText("");
-        txtPageCount2.setText("");
-        txtTitle2.setText("");
-        txtMatter2.setText("");
-        txtKeyWords2.setText("");
-        txtTypePDFFile2.setText("");
-        txtPDFVersion2.setText("");
-        txtCreationApp2.setText("");
-        txtImages2.setText("");
-        txtFonts2.setText("");
-
+    public void clickLoadBtn(ActionEvent event) throws IOException {
+        PDFFiles = null;
+        PDFFiles = reader.readFiles();
+        setInfo();
     }
-
 }
