@@ -89,15 +89,21 @@
             <Font name="Century Gothic" size="12.0" />
          </font>
       </Button>
-      <Button fx:id="load_btn1" layoutX="341.0" layoutY="644.0" mnemonicParsing="false" onMouseClicked="#forwardFile" prefHeight="30.0" prefWidth="70.0" text="Siguiente" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="load_btn1" layoutX="341.0" layoutY="644.0" mnemonicParsing="false" onMouseClicked="#forwardFileUploaded" prefHeight="30.0" prefWidth="70.0" text="Siguiente" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <Button fx:id="load_btn11" layoutX="263.0" layoutY="644.0" mnemonicParsing="false" onMouseClicked="#backwardFile" prefHeight="30.0" prefWidth="70.0" text="Anterior" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="load_btn11" layoutX="263.0" layoutY="644.0" mnemonicParsing="false" onMouseClicked="#backwardFileUploaded" prefHeight="30.0" prefWidth="70.0" text="Anterior" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
+      <TextArea fx:id="rtxtResumen" layoutX="190.0" layoutY="579.0" prefHeight="62.0" prefWidth="427.0" />
+      <Label layoutX="77.0" layoutY="594.0" text="Resumen:">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

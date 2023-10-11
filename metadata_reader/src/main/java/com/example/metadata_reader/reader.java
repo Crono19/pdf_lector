@@ -1,5 +1,6 @@
 package com.example.metadata_reader;
 
+import javafx.scene.control.Alert;
 import org.apache.pdfbox.Loader;
 import org.apache.pdfbox.cos.COSName;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -64,10 +65,17 @@ public class reader {
                 Integer images = getImagesFromPDF(document).size();
                 Integer fonts = getImageFonts(document);
                 String pageSize = getPageSize(document);
+                String summarize = "";
 
+                if (getSummarize(document).isEmpty()){
+                    summarize = String.valueOf(createSummarize(document));
+                }
+                else{
+                    summarize = getSummarize(document);
+                }
 
                 PDFFiles.add(new PDFFile(name, fileSize, pageSize, pageCount, title, matter, keywords, "PDF", pdfVersion,
-                        creator, images, fonts));
+                        creator, images, fonts, summarize));
 
             } catch (IOException e) {
                 e.printStackTrace(System.out);
@@ -100,6 +108,44 @@ public class reader {
         return images;
     }
 
+    public static String getSummarize(PDDocument document) throws IOException {
+        PDFTextStripper pdfTextStripper = new PDFTextStripper();
+        String pdfText = pdfTextStripper.getText(document);
+        String[] lines = pdfText.split("\n");
+
+        StringBuilder summary = new StringBuilder();
+        boolean isSummarySection = false;
+
+        for (String line : lines) {
+            if ((line.contains("Resumen")) || (line.contains("resumen")) || (line.contains("RESUMEN"))) {
+                isSummarySection = true;
+            } else if (isSummarySection && line.trim().isEmpty()) {
+                break;
+            } else if (isSummarySection) {
+                summary.append(line).append("\n");
+            }
+        }
+
+        return summary.toString();
+    }
+
+    private static List<String> createSummarize(PDDocument document) throws IOException {
+        PDFTextStripper stripper = new PDFTextStripper();
+        String text = stripper.getText(document);
+        List<String> summary = new ArrayList<>();
+        String[] sentences = text.split("\\.");
+
+        for (String sentence : sentences) {
+            sentence = sentence.trim();
+
+            if (sentence.split(" ").length > 10) {
+                summary.add(sentence);
+            }
+        }
+
+        return summary;
+    }
+
     public static int getImageFonts(PDDocument document) throws IOException {
         int count = 0;
 
@@ -109,7 +155,8 @@ public class reader {
         String[] words = pdfText.split("\\s+");
 
         for (String w : words) {
-            if (w.equalsIgnoreCase("Fuente: ")) {
+            if ((w.equalsIgnoreCase("Fuente:")) || (w.equalsIgnoreCase("fuente:"))
+            || (w.equalsIgnoreCase("FUENTE:"))) {
                 count++;
             }
         }
@@ -143,7 +190,11 @@ public class reader {
     }
 
     public static void saveFiles(List<PDFFile> files) {
-        File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
+        File file = new File(getProjectRootDirectory() + File.separator + "filesmetadata.txt");
+
+        if (file.exists()){
+            file.delete();
+        }
 
         for (PDFFile pdfFile : files) {
             try {
@@ -154,41 +205,112 @@ public class reader {
                 ex.printStackTrace(System.out);
             }
         }
+
+        file = new File(getProjectRootDirectory() + File.separator + "filessummary.txt");
+
+        if (file.exists()){
+            file.delete();
+        }
+
+        for (PDFFile pdfFile : files) {
+            try {
+                PrintWriter pw = new PrintWriter(new FileWriter(file, true));
+                pw.println(pdfFile.getSummary() + "ESTE ES EL SEPARADOR DE RESUMENES:");
+                pw.close();
+            } catch (IOException ex) {
+                ex.printStackTrace(System.out);
+            }
+        }
     }
 
     public static List<PDFFile> readFiles(){
-        File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
-        List<PDFFile> PDFFiles = new ArrayList<>();
+        File file = new File(getProjectRootDirectory() + File.separator + "filesmetadata.txt");
 
-        try{
-            BufferedReader br = new BufferedReader(new FileReader(file));
-            String line = br.readLine();
-            while (line != null){
-                String[] parts = line.split("/___/");
+        if (file.exists()) {
+            List<PDFFile> PDFFiles = new ArrayList<>();
+            List<String> summarizes = readSummary();
+            int index = 0;
 
-                String name = parts[0];
-                String size = parts[1];
-                String pageSize = parts[2];
-                String pageCount = parts[3];
-                String title = parts[4];
-                String matter = parts[5];
-                String keyWords = parts[6];
-                String typePDFFile = parts[7];
-                String version = parts[8];
-                String creationApp = parts[9];
-                String images = parts[10];
-                String fonts = parts[11];
+            try{
+                BufferedReader br = new BufferedReader(new FileReader(file));
+                String line = br.readLine();
+                while (line != null){
+                    String[] parts = line.split("/___/");
 
-                PDFFiles.add(new PDFFile(name, Double.parseDouble(size) , pageSize, Integer.parseInt(pageCount),
-                        title, matter, keyWords, typePDFFile, version, creationApp, Integer.parseInt(images),
-                        Integer.parseInt(fonts)));
+                    String name = parts[0];
+                    String size = parts[1];
+                    String pageSize = parts[2];
+                    String pageCount = parts[3];
+                    String title = parts[4];
+                    String matter = parts[5];
+                    String keyWords = parts[6];
+                    String typePDFFile = parts[7];
+                    String version = parts[8];
+                    String creationApp = parts[9];
+                    String images = parts[10];
+                    String fonts = parts[11];
+                    assert summarizes != null;
+                    String summary = summarizes.get(index);
 
-                line = br.readLine();
-            }
-        br.close();
-        } catch (IOException ex){
+                    PDFFiles.add(new PDFFile(name, Double.parseDouble(size) , pageSize, Integer.parseInt(pageCount),
+                            title, matter, keyWords, typePDFFile, version, creationApp, Integer.parseInt(images),
+                            Integer.parseInt(fonts), summary));
+
+                    line = br.readLine();
+                    index++;
+                }
+                br.close();
+            } catch (IOException ex){
                 ex.printStackTrace(System.out);
+            }
+            return PDFFiles;
+        } else {
+            showAlert();
+            return null;
         }
-        return PDFFiles;
+    }
+
+    public static List<String> readSummary(){
+        String fileName = getProjectRootDirectory() + File.separator + "filessummary.txt";
+
+        if (new File(fileName).exists()){
+            List<String> summarizes = new ArrayList<>();
+
+            try {
+                BufferedReader br = new BufferedReader(new FileReader(fileName));
+                String line;
+                StringBuilder currentResumen = new StringBuilder();
+
+                while ((line = br.readLine()) != null) {
+                    if (line.contains("ESTE ES EL SEPARADOR DE RESUMENES:")) {
+                        if (!currentResumen.isEmpty()) {
+                            summarizes.add(currentResumen.toString());
+                            currentResumen = new StringBuilder();
+                        }
+                    } else {
+                        currentResumen.append(line).append("\n");
+                    }
+                }
+
+                if (!currentResumen.isEmpty()) {
+                    summarizes.add(currentResumen.toString());
+                }
+
+                br.close();
+            } catch (IOException e) {
+                e.printStackTrace(System.out);
+            }
+            return summarizes;
+        } else{
+            showAlert();
+            return null;
+        }
+    }
+
+    private static void showAlert() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setHeaderText("Mensaje importante");
+        alert.setContentText("No se han guardado archivos para leer");
+        alert.showAndWait().ifPresent(rs -> {});
     }
 }

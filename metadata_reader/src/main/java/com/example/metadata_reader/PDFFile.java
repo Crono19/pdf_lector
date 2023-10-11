@@ -1,13 +1,14 @@
 package com.example.metadata_reader;
 
 public class PDFFile {
-    private final String name; private final double size; private final String pageSize;
-    private final Integer pageCount; private final String title; private final String matter;
-    private final String keyWords; private final String typePDFFile; private final String version;
-    private final String creationApp; private final Integer images; private final Integer fonts;
+    private String name; private double size; private String pageSize;
+    private Integer pageCount; private String title; private String matter;
+    private String keyWords; private String typePDFFile; private String version;
+    private String creationApp; private Integer images; private Integer fonts;
+    private String summary;
 
     public PDFFile(String name, double size, String pageSize, Integer pageCount, String title, String matter, String keyWords,
-    String typePDFFile, String version, String creationApp, Integer images, Integer fonts) {
+    String typePDFFile, String version, String creationApp, Integer images, Integer fonts, String summary) {
         this.name = name;
         this.size = size;
         this.pageSize = pageSize;
@@ -20,6 +21,7 @@ public class PDFFile {
         this.creationApp = creationApp;
         this.images = images;
         this.fonts = fonts;
+        this.summary = summary;
     }
 
     public String getChain(){
@@ -69,8 +71,63 @@ public class PDFFile {
     public Integer getImages(){
         return images;
     }
+
     public Integer getFonts(){
         return fonts;
     }
 
+    public String getSummary(){
+        return summary;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public void setSize(double size){
+        this.size = size;
+    }
+    public void setPageSize(String pageSize){
+        this.pageSize = pageSize;
+    }
+
+    public void setPageCount(Integer pageCount){
+        this.pageCount = pageCount;
+    }
+
+    public void setTitle(String title){
+        this.title = title;
+    }
+
+    public void setMatter(String matter){
+        this.matter = matter;
+    }
+
+    public void setKeyWords(String keyWords){
+        this.keyWords = keyWords;
+    }
+
+    public void setTypePDFFile(String typePDFFile){
+        this.typePDFFile = typePDFFile;
+    }
+
+    public void setVersion(String version){
+        this.version = version;
+    }
+
+    public void setCreationApp(String creationApp){
+        this.creationApp = creationApp;
+    }
+
+    public void setImages(Integer images){
+        this.images = images;
+    }
+
+    public void setFonts(Integer fonts){
+        this.fonts = fonts;
+    }
+
+    public void setSummary(String summary){
+        this.summary = summary;
+    }
 }
