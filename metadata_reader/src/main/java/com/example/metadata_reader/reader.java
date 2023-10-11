@@ -10,6 +10,7 @@ import org.apache.pdfbox.pdmodel.common.PDRectangle;
 import org.apache.pdfbox.pdmodel.graphics.PDXObject;
 import org.apache.pdfbox.pdmodel.graphics.form.PDFormXObject;
 import org.apache.pdfbox.pdmodel.graphics.image.PDImageXObject;
+import org.apache.pdfbox.text.PDFTextStripper;
 
 import java.awt.image.RenderedImage;
 import java.io.*;
@@ -61,7 +62,7 @@ public class reader {
                 int pageCount = document.getNumberOfPages();
                 String keywords = info.getKeywords();
                 Integer images = getImagesFromPDF(document).size();
-                Integer fonts = extractFontNamesFromPDF(document).size();
+                Integer fonts = getImageFonts(document);
                 String pageSize = getPageSize(document);
 
 
@@ -99,16 +100,21 @@ public class reader {
         return images;
     }
 
-    public static Set<String> extractFontNamesFromPDF(PDDocument file) throws IOException {
-        Set<String> fontNames = new HashSet<>();
+    public static int getImageFonts(PDDocument document) throws IOException {
+        int count = 0;
 
-        for (PDPage page : file.getPages()) {
-            for (COSName font : page.getResources().getFontNames()) {
-                fontNames.add(font.getName());
+        PDFTextStripper pdfTextStripper = new PDFTextStripper();
+        String pdfText = pdfTextStripper.getText(document);
+
+        String[] words = pdfText.split("\\s+");
+
+        for (String w : words) {
+            if (w.equalsIgnoreCase("Fuente: ")) {
+                count++;
             }
         }
-        file.close();
-        return fontNames;
+
+        return count;
     }
 
     public static String getPageSize(PDDocument file) {
@@ -136,62 +142,6 @@ public class reader {
         return System.getProperty("user.dir");
     }
 
-//    public static void appendToCSV(PDFFile file) throws IOException {
-//        String path = getProjectRootDirectory() + File.separator + "files.csv";
-//        try {
-//            BufferedWriter bw = new BufferedWriter(new FileWriter(path, true));
-//
-//            bw.write(file.getName() + "," + file.getSize() + "," + file.getPageSize() + "," + file.getPageCount() +
-//                    "," + file.getTitle() + "," + file.getMatter() + "," + file.getKeyWords()+ "," + file.getTypePDFFile() +
-//                    "," + file.getVersion() + "," + file.getCreationApp() + "," + file.getImages() + "," + file.getFonts());
-//            bw.newLine();
-//
-//            bw.close();
-//        } catch (IOException ex) {
-//            ex.printStackTrace(System.out);
-//        }
-//    }
-
-//    public static List<PDFFile> getPDFFiles() throws IOException {
-//        String path = getProjectRootDirectory() + File.separator + "files.csv";
-//
-//        try {
-//            BufferedReader br = new BufferedReader(new FileReader(path));
-//            String line = null;
-//
-//            List<PDFFile> PDFFiles = new ArrayList<>();
-//
-//            while ((line = br.readLine()) != null) {
-//                String[] parts = line.split(",");
-//
-//                System.out.println(parts[0]);
-//                System.out.println(parts[1]);
-//                String name = parts[0];
-//                String size = parts[1];
-//                String pageSize = parts[2];
-//                String pageCount = parts[3];
-//                String title = parts[4];
-//                String matter = parts[5];
-//                String keyWords = parts[6];
-//                String typePDFFile = parts[7];
-//                String version = parts[8];
-//                String creationApp = parts[9];
-//                String images = parts[10];
-//                String fonts = parts[11];
-//
-//                PDFFiles.add(new PDFFile(name, Double.parseDouble(size) , pageSize, Integer.parseInt(pageCount),
-//                        title, matter, keyWords, typePDFFile, version, creationApp, Integer.parseInt(images),
-//                        Integer.parseInt(fonts)));
-//            }
-//            br.close();
-//
-//            return PDFFiles;
-//        } catch (IOException ex) {
-//            ex.printStackTrace(System.out);
-//        }
-//        return null;
-//    }
-
     public static void saveFiles(List<PDFFile> files) {
         File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
 
@@ -206,7 +156,7 @@ public class reader {
         }
     }
 
-    public static List<PDFFile> readFiles() throws IOException {
+    public static List<PDFFile> readFiles(){
         File file = new File(getProjectRootDirectory() + File.separator + "files.txt");
         List<PDFFile> PDFFiles = new ArrayList<>();
 
