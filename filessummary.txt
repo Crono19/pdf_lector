@@ -1,0 +1,346 @@
+[jsp#home 1/1
+ 
+RECIBO DE DECLARACIÓN DE IMPUESTOS
+DATOS DE LA DECLARACION RECIBIDA
+Código del Formulario: SAT-2000
+Número de Formulario: 37 403 375 105
+Importe Pagado: Q 1,007, Cuenta a Debitar: 3033051948 - ANABELLA DEL ROSARIO ALVARADO MI
+Número de Operación: 0162023011414080792717368
+Fecha de la Operación: 14/ENE/2023
+Hora de la Operación: 14:08:24
+Sistema de envío: BancaSAT Web
+Número de Transacción: 827401084
+200374033751050161,,007]ESTE ES EL SEPARADOR DE RESUMENES:
+[jsp#home 1/1
+ 
+RECIBO DE DECLARACIÓN DE IMPUESTOS
+DATOS DE LA DECLARACION RECIBIDA
+Código del Formulario: SAT-2000
+Número de Formulario: 37 403 366 213
+Importe Pagado: Q 596, Cuenta a Debitar: 3033051948 - ANABELLA DEL ROSARIO ALVARADO MI
+Número de Operación: 0162023011414094592717377
+Fecha de la Operación: 14/ENE/2023
+Hora de la Operación: 14:10:02
+Sistema de envío: BancaSAT Web
+Número de Transacción: 827401374
+20037403366213016596]ESTE ES EL SEPARADOR DE RESUMENES:
+[Mantenga en secreto el Número de Acceso pues permite ver todo el formulario, SAT
+Superintendencia de
+Administración Tributaria
+VEHÍCULOS CIRCULACIÓN SAT-4091
+Release 1
+Número de Acceso
+126 321 460
+Impuesto Sobre Circulación de Vehículos (ISCV), Número de Formulario
+37 403 375 105
+1 de 4: En preparación Número de Contingencia
+Aclaraciones
+a) ¿Quiénes pueden utilizar este formulario?
+Todo poseedor de un vehículo terrestre, A excepción de los Usos “Cuerpo Consular, Cuerpo Diplomático y Misión
+Internacional” quienes deberán presentarse a solicitar su calcomanía en la Agencia de la SAT en el Ministerio de
+Relaciones Exteriores, b) ¿Cómo se usa este formulario?
+•   Sí desea pagar el impuesto de circulación de más de un vehículo seleccione la opción “Dos o más”
+•   Llene, valide y congele este formulario, •   Pague el SAT-2000 en un banco (por banca electrónica o en agencia bancaria), •   Imprima la calcomanía electrónica ingresando al Portal SAT Vehículos Consulta
+c) ¿Dónde debo portar la calcomanía?
+Guárdela en el interior del vehículo o pórtela al conducir, d) ¿Debo pagar antes las multas de tránsito?
+Sí, señor contribuyente para poder imprimir la calcomanía debe estar solvente de las infracciones de tránsito, Si
+su vehículo tiene multas de tránsito aparecerá el link "Ver infracciones de tránsito"
+e) ¿Cuándo debe pagarse este impuesto?
+Del 1 de enero al 31 de julio de cada año, Luego de ese plazo corresponde multa por omisión, intereses y mora, BÚSQUEDA EN EL REGISTRO FISCAL DE VEHÍCULOS (RFV)
+¿De cuántos vehículos va a pagar?
+  Uno (deberá ingresar la placa y el NIT)
+  Dos o más (deberá ingresar la placa de cualquiera de ellos, su respectiva Tarjeta de Circulación y el NIT)
+Placa de circulación
+Elija el prefijo y escriba el número de la placa actual 250HZF
+NIT del propietario
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO 7563787
+2, gt/declaraguate-web/ 2/2
+Esta es la fecha máxima en que el banco aceptará el pago de este formulario, Si no lo
+realiza en esta fecha, deberá llenar otro para determinar el nuevo monto a pagar, DETERMINACIÓN DEL TOTAL A PAGAR
+Sí seleccionó “Dos o más” use la opción “Posponer” si desea quitar un vehículo que aún no va a pagar]ESTE ES EL SEPARADOR DE RESUMENES:
+[Mantenga en secreto el Número de Acceso pues permite ver todo el formulario, SAT
+Superintendencia de
+Administración Tributaria
+VEHÍCULOS CIRCULACIÓN SAT-4091
+Release 1
+Número de Acceso
+699 688 922
+Impuesto Sobre Circulación de Vehículos (ISCV), Número de Formulario
+37 403 366 213
+2 de 4: Validado Número de Contingencia
+Aclaraciones
+a) ¿Quiénes pueden utilizar este formulario?
+Todo poseedor de un vehículo terrestre, A excepción de los Usos “Cuerpo Consular, Cuerpo Diplomático y Misión
+Internacional” quienes deberán presentarse a solicitar su calcomanía en la Agencia de la SAT en el Ministerio de
+Relaciones Exteriores, b) ¿Cómo se usa este formulario?
+•   Sí desea pagar el impuesto de circulación de más de un vehículo seleccione la opción “Dos o más”
+•   Llene, valide y congele este formulario, •   Pague el SAT-2000 en un banco (por banca electrónica o en agencia bancaria), •   Imprima la calcomanía electrónica ingresando al Portal SAT Vehículos Consulta
+c) ¿Dónde debo portar la calcomanía?
+Guárdela en el interior del vehículo o pórtela al conducir, d) ¿Debo pagar antes las multas de tránsito?
+Sí, señor contribuyente para poder imprimir la calcomanía debe estar solvente de las infracciones de tránsito, Si
+su vehículo tiene multas de tránsito aparecerá el link "Ver infracciones de tránsito"
+e) ¿Cuándo debe pagarse este impuesto?
+Del 1 de enero al 31 de julio de cada año, Luego de ese plazo corresponde multa por omisión, intereses y mora, BÚSQUEDA EN EL REGISTRO FISCAL DE VEHÍCULOS (RFV)
+¿De cuántos vehículos va a pagar?
+  Uno (deberá ingresar la placa y el NIT)
+  Dos o más (deberá ingresar la placa de cualquiera de ellos, su respectiva Tarjeta de Circulación y el NIT)
+Placa de circulación
+Elija el prefijo y escriba el número de la placa actual P0 252HYB
+NIT del propietario
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO 7563787
+14/1/23, 14:00 Catalogo
+https://declaraguate, FECHA PARA DETERMINAR EL PAGO
+Esta es la fecha máxima en que el banco aceptará el pago de este formulario, Si no lo realiza en esta
+fecha, deberá llenar otro para determinar el nuevo monto a pagar, DETERMINACIÓN DEL TOTAL A PAGAR
+Sí seleccionó “Dos o más” use la opción “Posponer” si desea quitar un vehículo que aún no va a pagar]ESTE ES EL SEPARADOR DE RESUMENES:
+CUI:................................ 1664140691105
+Original
+Forma 2000-SAT-SCC
+274,033,662
+Fecha de impresión:... 14/01/2023
+Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
+Correlativo CGC No.
+SAT
+Superintendencia de
+Administración Tributaria
+BOLETA DECLARAGUATE
+Presentar vía ventanilla bancaria o banca electrónica
+Código de formulario
+SAT-2000
+Fecha máxima en que el banco aceptará esta boleta:
+Si al presentar esta boleta el impuesto ya venció, estará sujeto al pago de multa, intereses, y/o mora, si corresponde.
+19/02/2023.
+Cuando se presenta en ventanilla bancaria,
+Monto a pagar
+Q 596.09
+Número de contingencia
+596 094 497 600 360 500
+37 403 366 213
+Número de formulario
+Firma del contribuyente o representante legal
+Declaración del contribuyente o representante legal
+Por medio de esta boleta presento el formulario llenado en el sistema Declaraguate con los datos:
+Código:........................... SAT-4091
+Nombre:.........................  VEHÍCULOS CIRCULACIÓN
+Número:......................... 37 403 366 213
+Período de imposición:...
+Nombre o razón social del contribuyente:.ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+enero - diciembre de 2023
+NIT del contribuyente:.... 7563787
+máquina registradora en el reverso de esta hoja.
+válido únicamente por el importe impreso por la
+CUI:................................ 1664140691105
+Fecha de impresión:... 14/01/2023
+Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
+Correlativo CGC No.
+Duplicado
+Número de acceso
+Forma 2000-SAT-SCC
+274,033,662
+699688922
+ESTE ES EL SEPARADOR DE RESUMENES:
+CUI:................................ 1664140691105
+Original
+Forma 2000-SAT-SCC
+274,033,751
+Fecha de impresión:... 14/01/2023
+Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
+Correlativo CGC No.
+SAT
+Superintendencia de
+Administración Tributaria
+BOLETA DECLARAGUATE
+Presentar vía ventanilla bancaria o banca electrónica
+Código de formulario
+SAT-2000
+Fecha máxima en que el banco aceptará esta boleta:
+Si al presentar esta boleta el impuesto ya venció, estará sujeto al pago de multa, intereses, y/o mora, si corresponde.
+19/02/2023.
+Cuando se presenta en ventanilla bancaria,
+Monto a pagar
+Q 1,007.50
+Número de contingencia
+1 007 504 497 600 631 490
+37 403 375 105
+Número de formulario
+Firma del contribuyente o representante legal
+Declaración del contribuyente o representante legal
+Por medio de esta boleta presento el formulario llenado en el sistema Declaraguate con los datos:
+Código:........................... SAT-4091
+Nombre:.........................  VEHÍCULOS CIRCULACIÓN
+Número:......................... 37 403 375 105
+Período de imposición:...
+Nombre o razón social del contribuyente:.ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+enero - diciembre de 2023
+NIT del contribuyente:.... 7563787
+máquina registradora en el reverso de esta hoja.
+válido únicamente por el importe impreso por la
+CUI:................................ 1664140691105
+Fecha de impresión:... 14/01/2023
+Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
+Correlativo CGC No.
+Duplicado
+Número de acceso
+Forma 2000-SAT-SCC
+274,033,751
+126321460
+ESTE ES EL SEPARADOR DE RESUMENES:
+[-
+Calcomanía Electrónica
+de Circulación (Web)
+Código del vehículo
+    Guatemala
+Centro América
+Año Placa
+P0250HZF
+             Si desea puede recortar la calcomanía y luego doblarla al medio por la línea gruesa
+2023
+2021 59199 8- -
+Fecha de Impresión
+ANABELLA DEL ROSARIO, ALVARADO MIRANDA
+Tipo de vehículo: CAMIONETA
+Marca: SUZUKI
+Línea:  VITARA 1, 6 GL AT
+4071-202102073968
+Color:  PLATEADO
+4201-202102090438
+14/01/2023
+DATOS DEL VEHÍCULO
+Nombre del propietario:
+Número de tarjeta de circulación vigente:
+Número de certificado de propiedad
+Portar esta calcomanía al circular con el
+vehículo, las autoridades competentes podrán
+solicitarla]ESTE ES EL SEPARADOR DE RESUMENES:
+[-
+Calcomanía Electrónica
+de Circulación (Web)
+Código del vehículo
+    Guatemala
+Centro América
+Año Placa
+P0252HYB
+             Si desea puede recortar la calcomanía y luego doblarla al medio por la línea gruesa
+2023
+2019 21492 4- -
+Fecha de Impresión
+ANABELLA DEL ROSARIO, ALVARADO MIRANDA
+Tipo de vehículo: AUTOMOVIL
+Marca: VOLKSWAGEN
+Línea:  POLO HB
+4071-202102037964
+Color:  ROJO
+4201-202102054419
+14/01/2023
+DATOS DEL VEHÍCULO
+Nombre del propietario:
+Número de tarjeta de circulación vigente:
+Número de certificado de propiedad
+Portar esta calcomanía al circular con el
+vehículo, las autoridades competentes podrán
+solicitarla]ESTE ES EL SEPARADOR DE RESUMENES:
+[202102054419
+CÓDIGO ÚNICO IDENTIFICADOR
+ 2019 - 21492 - 4
+Válida hasta: 31/07/2024
+NIT: 7563787 NOMBRE:
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+USO: PARTICULAR PLACA: P0 - 252HYB
+TIPO: AUTOMOVIL MARCA: VOLKSWAGEN
+LÍNEA: POLO HB MODELO: 2018
+CHASIS: WVWZZZ60ZJT106630 VIN: WVWZZZ60ZJT106630
+SERIE: WVWZZZ60ZJT106630 MOTOR: CLS 635253
+ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
+Usuario: 7563787
+Fecha: 14/01/2023
+Hora: 14:15:55
+Fecha de 
+Registro:
+3/02/2021
+COMPLETADOREPORTE
+Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
+Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
+Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
+Artículo 10 literal a), Edgar René Mazariegos
+Jefe del Departamento de Tránsito 
+de PNC
+Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
+consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
+[202102090438
+CÓDIGO ÚNICO IDENTIFICADOR
+ 2021 - 59199 - 8
+Válida hasta: 31/07/2024
+NIT: 7563787 NOMBRE:
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+USO: PARTICULAR PLACA: P0 - 250HZF
+TIPO: CAMIONETA MARCA: SUZUKI
+LÍNEA: VITARA 1, 6 GL AT MODELO: 2020
+CHASIS: TSMYD21S4LM755704 VIN: TSMYD21S4LM755704
+SERIE: TSMYD21S4LM755704 MOTOR: M16A-2327616
+ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
+Usuario: 7563787
+Fecha: 14/01/2023
+Hora: 14:16:25
+Fecha de 
+Registro: 16/02/2021
+COMPLETADOREPORTE
+Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
+Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
+Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
+Artículo 10 literal a), Edgar René Mazariegos
+Jefe del Departamento de Tránsito 
+de PNC
+Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
+consigna en la Tarjeta de Circulación, 202102054419
+CÓDIGO ÚNICO IDENTIFICADOR
+ 2019 - 21492 - 4
+Válida hasta: 31/07/2024
+NIT: 7563787 NOMBRE:
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+USO: PARTICULAR PLACA: P0 - 252HYB
+TIPO: AUTOMOVIL MARCA: VOLKSWAGEN
+LÍNEA: POLO HB MODELO: 2018
+CHASIS: WVWZZZ60ZJT106630 VIN: WVWZZZ60ZJT106630
+SERIE: WVWZZZ60ZJT106630 MOTOR: CLS 635253
+ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
+Usuario: 7563787
+Fecha: 14/01/2023
+Hora: 14:15:55
+Fecha de 
+Registro: 3/02/2021
+COMPLETADOREPORTE
+Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
+Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
+Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
+Artículo 10 literal a), Edgar René Mazariegos
+Jefe del Departamento de Tránsito 
+de PNC
+Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
+consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
+[202102090438
+CÓDIGO ÚNICO IDENTIFICADOR
+ 2021 - 59199 - 8
+Válida hasta: 31/07/2024
+NIT: 7563787 NOMBRE:
+CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
+USO: PARTICULAR PLACA: P0 - 250HZF
+TIPO: CAMIONETA MARCA: SUZUKI
+LÍNEA: VITARA 1, 6 GL AT MODELO: 2020
+CHASIS: TSMYD21S4LM755704 VIN: TSMYD21S4LM755704
+SERIE: TSMYD21S4LM755704 MOTOR: M16A-2327616
+ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
+Usuario: 7563787
+Fecha: 14/01/2023
+Hora: 14:16:25
+Fecha de 
+Registro:
+16/02/2021
+COMPLETADOREPORTE
+Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
+Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
+Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
+Artículo 10 literal a), Edgar René Mazariegos
+Jefe del Departamento de Tránsito 
+de PNC
+Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
+consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
