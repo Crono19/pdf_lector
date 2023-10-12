@@ -1,0 +1,268 @@
+[Pablo Andrés Mazariegos Hernández – 1541522 
+ 
+• ¿Cómo se almacena una grabación de audio? 
+ 
+El sonido se convierte en una señal digital, Esta señal digital se almacena en la 
+computadora como un archivo de audio, Para convertir la señal digital a sonido 
+nuevamente, se utiliza un dispositivo llamado DAC, que convierte la señal digital en una 
+señal analógica y esta se reproduce en los altavoces o audífonos, Cada tipo de archivo de audio tiene un método propio de conversión a señal digital 
+(unos y ceros), Mientras que algunos premian la calidad, otros premian el tamaño del 
+archivo reducido, • ¿Cómo se guardan las partidas de los juegos? 
+ 
+La respuesta depende del tipo y modelo de la consola, ya que los métodos más antiguos 
+son totalmente diferentes a los métodos modernos, Para aproximarnos a una respuesta, asumiremos que hablamos de una consola 
+moderna, como una PS5, El almacenamiento 
+interno de una PS5 es un SSD, que es un tipo de almacenamiento más rápido que las 
+tarjetas de memoria, Esto significa que las partidas de los juegos se cargan más rápido, • ¿Cómo se guarda la información de mi editor de texto? 
+ 
+Suponiendo que hablamos del editor de texto más común, Word (que genera un archivo, El procesador de texto de Word toma el contenido del documento y lo convierte 
+a un formato binario, El formato binario se almacena en el disco duro de la computadora, La computadora crea un índice del documento en el disco duro, El índice permite a la computadora encontrar rápidamente el contenido del 
+documento cuando lo abres, • ¿Cómo se guarda la información de una diapositiva? 
+ 
+Si hablamos de una diapositiva con extensión, El software de creación de PDF toma el contenido del documento y lo convierte a 
+un formato de archivo PDF, El formato binario se almacena en el disco duro de la computadora, La computadora crea un índice del documento en el disco duro, El índice permite a la computadora encontrar rápidamente el contenido del 
+documento cuando lo abres, Ya que PDF no es un editor de texto, sino un tipo de archivo, previamente se tuvo que 
+haber realizado una conversión del formato original del archivo al formato, • ¿Cómo ve el usuario los archivos? 
+ 
+Si hablamos de una diapositiva con extensión, El explorador de archivos solicita al sistema operativo una lista de todos los 
+archivos y carpetas que se almacenan en el disco duro, El sistema operativo consulta el índice del disco duro para obtener la lista de 
+archivos y carpetas, El explorador de archivos muestra la lista de archivos y carpetas en la ventana del 
+explorador de archivos, El usuario puede navegar por la lista de archivos y carpetas para encontrar el archivo que 
+está buscando, Cuando el usuario hace doble clic en un archivo, el explorador de 
+archivos solicita al sistema operativo que abra el archivo]ESTE ES EL SEPARADOR DE RESUMENES:
+[Tipos de archivos de acuerdo a su organización y operaciones sobre estos 
+• Estructura jerárquica 
+El nivel más alto lo constituye la base de datos y el nivel más bajo el carácter, ya que se 
+organizan de modo jerárquico, Los conceptos de carácter, campo, registro, archivo y 
+base de datos son conceptos lógicos que se refieren al medio en que el usuario de 
+computadoras ve los datos y se organizan, o Campos: Un campo es un ítem o elemento de datos elementales, tales como un 
+nombre, número de empleados, ciudad, número de identificación, etc, Un campo esta caracterizado por su tamaño y tipo de dato, Un registro es una colección 
+de información que, relacionada entre sí, tiene un significado para el usuario, Un ejemplo es un empleado, que tiene nombre, apellidos, fecha de nacimiento, 
+etc, o Archivos: Un archivo, también denominado fichero, es un conjunto de registros, Un ejemplo de fichero es un salon de clases, ya que tiene un conjunto de 
+estudiantes, Un campo es un ítem o elemento de datos elementales, tales como un nombre, 
+número de empleados, ciudad, número de identificación, etc, o Base de datos: Es una colección de archivos a los que se pueden acceder mediante 
+gestores de bases de datos, • Terminología 
+o Clave: Es un campo que identifica a un registro, como los nombres o número de 
+identificación, o Registro físico o bloqueo: Un registro físico o bloque es la cantidad más pequeña 
+de datos que pueden transferirse en una operación de entrada/salida entre la 
+memoria central y los dispositivos periféricos o viceversa, o Factor de bloqueo: El número de registros lógicos que puede contener un 
+registro físico se denomina factor de bloque, En un bloque que contienen varios registros 
+físicos por bloque; se denominan registros expandidos, El factor de bloqueo es 1 y se dice que los 
+registros no están bloqueados, El factor de bloqueo es mayor que 1 y los 
+registros están bloqueados, • Organización de archivos  
+El soporte es el medio físico donde se almacenan los datos, Existen dos tipos de soportes: 
+o Soportes secuenciales: son aquéllos en los que los registros informaciones están 
+escritos unos a continuación de otros y para acceder a un determinado registro, 
+n se necesita pasar por los n-1 registros anteriores, o Soportes direccionables: se estructuran de modo que las informaciones 
+registradas se pueden localizar directamente por su dirección y no se requiere 
+pasar por los registros precedentes, Existen dos tipos de accesos a los registros de un archivo: 
+o Acceso secuencial: implica el acceso a un archivo según el orden de 
+almacenamiento de sus registros, uno tras otro, o Acceso directo: implica el acceso a un registro determinado, sin que ello 
+implique la consulta de los registros precedentes, La organización de un archivo define la forma en la que los registros se disponen sobre 
+el soporte de almacenamiento, o también se define la organización como la forma en 
+que se estructuran los datos en un archivo, Existen tres tipos de organizaciones: 
+o Organización secuencial: La organización de un archivo define la forma en la 
+que los registros se disponen sobre el soporte de almacenamiento, o también se 
+define la organización como la forma en que se estructuran los datos en un 
+archivo 
+o Organización directa o aleatoria (Random): Un archivo está organizado en modo 
+directo cuando el orden físico no se corresponde con el orden lógico, Los datos 
+se sitúan en el archivo y se accede a ellos directa aleatoriamente mediante su 
+posición, es decir, el lugar relativo que ocupan, Esta organización tiene la ventaja de que se pueden leer y escribir registros en 
+cualquier orden y posición, o Organización secuencial indexada (Indexed): Son archivos que manejan dos 
+archivos realmente, uno de datos y otro de índices, Un diccionario es un ejemplo 
+de ello, ya que tiene un índice al que se puede acceder específicamente y no se 
+necesita acceder a todos los registros anteriores, • Operaciones sobre archivos 
+o Creación: Es la primera operación que sufrirá el archivo de datos, Implica la 
+elección de un entorno descriptivo que permita un ágil, rápido y eficaz 
+tratamiento del archivo, Para utilizar un archivo, éste tiene que existir, es decir, 
+las informaciones de este archivo tienen que haber sido almacenados sobre un 
+soporte y ser utilizables, o Consulta: Es la operación que le permite al usuario acceder al contenido en 
+repetidas ocasiones, Para esto es necesario 
+modificar los campos que un registro tenga, o Clasificación: También llamada ordenación, permite mantener un orden 
+específico para un archivo, o Reorganización: Consiste en la copia de un nuevo archivo a partir del archivo 
+modificado, a fin de obtener una nueva estructura lo más óptima posible, o Reunión, fusion:  
+o Reunión: Se obtiene un archivo a partir de otros, o Fusión: Se realiza una fusión cuando se reúnen varios archivos en uno 
+solo, intercalándose unos en otros, siguiendo unos criterios 
+determinados, a) Rotura / estallido: Es la operación de obtener varios archivos a partir de un 
+mismo archivo inicial, • Gestión de archivos 
+Las operaciones más usuales en los registros son: 
+o Consulta: lectura del contenido de un registro, Las operaciones más usuales sobre los archivos son: 
+o Creación: Es la operación mediante la cual se introduce la información 
+correspondiente al archivo en un soporte de almacenamiento de datos, o Abrir: Es permitir al usuario localizar y acceder a los archivos que fueron creados 
+anteriormente, o Ampliación: Es permitir al usuario incrementar el tamaño de un archivo, o Cerrar: El propósito de la operación de cerrar un archivo es permitir al usuario 
+cortar el acceso o detener el uso del archivo, permitiendo a otros usuarios 
+acceder al archivo, o Borrar: Tiene como objetivo la supresión de un archivo del soporte o dispositivo, El espacio utilizado por un archivo borrado puede ser utilizado para otros 
+archivos, • Mantenimiento de archivos 
+Son todas las operaciones que sufre un archivo desde su creacoón hasta su modificación, Existen distintas operaciones, entre las que están: 
+o Altas: Consiste en la adición de un nuevo registro, o Bajas: Es la acción de eliminar un registro de un archivo, o Modificaciones: En la operación de cambiar total o parcialmente el contenido 
+de uno de sus registros, o Consulta: Tiene como fin visualizar la información contenida en el archivo, bien 
+de un modo completo- bien de modo parcial-, examen de uno o más registros, • Algoritmos para manipular archivos secuenciales 
+En un archivo secuencial los registros se insertan en el archivo en orden cronológico de 
+llegada al soporte, es decir, un registro de datos se almacena inmediatamente a 
+continuación del registro anterior, Los archivos secuenciales termina con una marca final de archivo (FF o EOF), Los métodos para manipular dichos archivos son: 
+o Creación: La creación de un archivo secuencial es un proceso secuencial, ya que 
+los registros se almacenan consecutivamente en el mismo orden en que se 
+introducen en el archivo, La operación de crear un archivo tiene dos variantes: 
+o Crear el archivo original (1); 
+o Añadir datos al archivo ya creado y a continuación del ultimo registro 
+del mismo (2) 
+o Consulta: El proceso de búsqueda o consulta de una información en un archivo 
+de organización secuencial se debe efectuar obligatoriamente en modo 
+secuencial, La búsqueda en lugar de ser secuencial se podría realizar por el método binario, 
+lo que reducirá considerablemente en tiempo, o Actualización de un archivo: 
+▪ Altas: La operación de alta supone la creación nueva del archivo, ya que 
+un archivo secuencial no admite la incorporación de nuevos registros, ▪ Bajas: Se utiliza un archivo transitorio, para posteriormente almacenar 
+en un array todos los registros del archivo y señalar el que se desea 
+eliminar, para mover los punteros de las conexiones entre registros, ▪ Modificaciones: El proceso de modificación de un registro consiste en 
+localizar este registro, efectuar dicha modificación y a continuación 
+rescribir el nuevo registro en el archivo, • Procesamiento de archivos de acceso directo 
+Los archivos aleatorios o de acceso directo tienen una gran rapidez de acceso 
+comparados con los secuenciales; son fáciles de referenciar número de ordendel 
+registro, y la facilidad de mantenimiento, La lectura/escritura de un registro es rápida, ya que se accede directamente al registro 
+y no se necesita recorrer los anteriores, Los métodos para manipular dichos archivos son: 
+o Creación: El proceso de creación de un archivo directo o aleatorio consiste en ir 
+introduciendo los sucesivos registros en el soporte que los va a contener y en la 
+detección obtenida resultante del algoritmo de conversión, o Altas: Se debe introducir su número de orden y contenido, o Consulta: El proceso de consulta de un archivo o aleatorio es rápido y debe 
+comenzar con la entrada del número o números de registros a consultar, ▪ Definir clave del registro buscado 
+▪ Aplicar algoritmo de conversión clave a dirección 
+▪ Lectura del registro ubicado en la dirección obtenida 
+▪ Comparación de las claves de los registros leído y buscado 
+▪ Exploración secuencial del área de excedentes, ni no se encuentra 
+elregistro en esta área es que no existe, o Bajas: Para realizar una baja se toma un campo indicador en el que su valor sea 
+0, y cuando exista, se pone a 1, Este tipo de una baja lógica, que significa que, 
+pese a usar un registro dado de baja, sigue ocupando el mismo espacio que si 
+estuviera presente, o Modificaciones: En un archivo aleatorio se localiza el registro que se desea 
+modificar número de registro; se modifica el contenido y se reescribe, • Tratamiento de las colisiones 
+Las colisiones son inevitables, se originan cuando dos registros de claves diferentes 
+producen la misma dirección relativa, En estos casos las colisiones se pueden tratar de dos 
+formas diferentes, o Buscar una nueva dirección libre en el mismo espacio del archivo, o Asignar el registro a la primera posición libre de la zona de excedentes, • Procesamiento de archivos secuanciales indexados 
+Una de las grandes ventajas de utilizar un índice con un archivo de datos secuenciales es 
+que la adición de registros pueden realizarse mucho más rápidamente que con un archivo 
+datos clasificados, siempre que el índice sea pequeño para poder alojarse en memoria 
+El almacenamiento del área de índices en memoria, mientras el programa se ejecuta, 
+permite encontrar los registros por clave más rápidamente con un archivo indexado que 
+con uno clasificado, ya que la búsqueda binaria puede ejecutarse completamente en 
+memoria]ESTE ES EL SEPARADOR DE RESUMENES:
+[Scanner; 
+ 
+class HelloWorld { 
+    public static void main(String[] args) { 
+        Scanner scanner = new Scanner(System, in); 
+        int choice; 
+ 
+        do { 
+            System, println("Menu:"); 
+            System, Comparar numeros"); 
+            System, Verificar mayuscula"); 
+            System, Verificar edad"); 
+            System, Administrar actividades semanales"); 
+            System, Salir"); 
+            System, print("Elige una opcion: "); 
+            choice = scanner, nextInt(); 
+ 
+            switch (choice) { 
+                case 1: 
+                    compareNumbers(scanner); 
+                    break; 
+                case 2: 
+                    checkCapitalLetter(scanner); 
+                    break; 
+                case 3: 
+                    checkAge(scanner); 
+                    break; 
+                case 4: 
+                    manageActivities(scanner); 
+                    break; 
+                case 0: 
+                    System, "); 
+                    break; 
+                default: 
+                    System, "); 
+                    break; 
+            } 
+ 
+        } while (choice != 0); 
+    } 
+     
+    public static void compareNumbers(Scanner scanner) { 
+        System, print("Ingresa el primer numero: "); 
+        int num1 = scanner, nextInt(); 
+ 
+        System, print("Ingresa el segundo numero: "); 
+        int num2 = scanner, nextInt(); 
+ 
+        if (num1 > num2) { 
+            System, println(num1 + " es mayor que " + num2); 
+        } else if (num2 > num1) { 
+            System, println(num2 + " es mayor que " + num1); 
+        } else { 
+            System, "); 
+        } 
+    } 
+ 
+    public static void checkCapitalLetter(Scanner scanner) { 
+        System, print("Ingresa una cadena de texto: "); 
+        String text = scanner, next(); 
+ 
+        if (Character, charAt(0))) { 
+            System, "); 
+        } else { 
+            System, "); 
+        } 
+    } 
+ 
+    public static void checkAge(Scanner scanner) { 
+        System, print("Ingresa una edad: "); 
+        int age = scanner, nextInt(); 
+ 
+        if (age > 18) { 
+            System, println("Tiene permisos de instalacion"); 
+        } else { 
+            System, exit(0); 
+        } 
+    } 
+ 
+    public static void manageActivities(Scanner scanner) { 
+        String[] activities = new String[7]; 
+        for (int i = 0; i < activities, length; i++) { 
+            System, print("Ingresa la actividad para el dia " + (i + 1) + ": "); 
+            activities[i] = scanner, next(); 
+        } 
+ 
+        System, print("Ingresa el dia de la semana (1-7) para ver la actividad: "); 
+        int day = scanner, nextInt(); 
+ 
+        if (day >= 1 && day <= 7) { 
+            System, println("Actividad para el dia " + day + ": " + activities[day - 1]); 
+        } else { 
+            System, "); 
+        } 
+    } 
+}]ESTE ES EL SEPARADOR DE RESUMENES:
+[Manejo E Implementación De Archivos 
+ 
+ 
+Nombres: Pablo Andrés Mazariegos Hernández, Juan Diego Marroquín Escobar 
+Sistema de Archivos 
+1, Que son los archivos 
+Son unidades lógicas de información creada por los procesos, Son almacenados en 
+direcciones de memoria dentro de un disco de almacenamiento, A que se le llama persistencia 
+La información que se almacena en los archivos debe ser persistente, es decir, no debe 
+ser afectada por la creación y terminación de los procesos, Como se administran los archivos 
+Son administrados por el sistema operativo; aunque la manera en cómo se estructuran, 
+abren, utilizan, protegen, implementan y administran son tareas del sistema de 
+archivos, que es parte del sistema operativo, Como se manejan los nombres de archivos o la asignación de nombres en un sistema 
+de archivos  
+Cuando un en proceso creamos archivos le debemos proporcionar una manera de 
+identificación, en este caso, un nombre, Cuando terminamos el proceso el archivo 
+continúa guardado y existiendo dentro de nuestra computadora para posteriormente 
+ser utilizado por otros procesos mediante la manera en que lo identificamos (nombre), Cuando hablamos de la identificación de archivos dependerá mucho de los sistemas 
+operativos, cada sistema operativo tiene sus propias reglas de guardado, aunque 
+actualmente los sistemas operativos por lo general permiten cadenas de uno a ocho 
+letras, permiten dígitos y caracteres especiales, Cual es la importancia de establecer una extensión al nombre de los archivos y que 
+tipos existen, Es de vital importancia, ya que con las extensiones la computadora puede saber qué 
+programa debe utilizar para abrir determinados archivos, A cada extensión se le asignar 
+un programa para que ejecute todos los archivos con la misma, Como se cambiar la extensión de un archivo 
+Remplazando letras después del punto en el nombre del archivo, La información no se 
+pierde, solo se cambia el tipo de archivo]ESTE ES EL SEPARADOR DE RESUMENES:

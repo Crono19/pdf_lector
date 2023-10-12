@@ -18,10 +18,6 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
-import org.apache.pdfbox.Loader;
-import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDDocumentInformation;
-import org.apache.pdfbox.text.PDFTextStripper;
 
 
 public class HelloController {
@@ -40,7 +36,7 @@ public class HelloController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+        index = 0;
     }
 
     public void switchToLoadFilesWindow(ActionEvent event) throws IOException {
@@ -49,18 +45,15 @@ public class HelloController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
-
+        index = 0;
     }
-    @FXML
-    private Button load_btn;
 
     @FXML
     private TextArea path_text;
     final FileChooser fc = new FileChooser();
 
     @FXML
-    void handleBtnOpenFile(ActionEvent event) {
-        List<String> paths = new ArrayList<>();
+    void handleBtnOpenFile() {
 
         DirectoryChooser dc = new DirectoryChooser();
         dc.setTitle("Select a Folder");
@@ -90,8 +83,11 @@ public class HelloController {
     @FXML private TextField txtCreationApp;
     @FXML private TextField txtImages;
     @FXML private TextField txtFonts;
+    @FXML private TextArea rtxtResumen;
 
-    public void saveFile(ActionEvent event) throws IOException {
+    public void saveFile() {
+        changePDFFile();
+
         reader.saveFiles(PDFFiles);
 
         txtName.setText("");
@@ -106,6 +102,23 @@ public class HelloController {
         txtCreationApp.setText("");
         txtImages.setText("");
         txtFonts.setText("");
+        rtxtResumen.setText("");
+    }
+
+    public void changePDFFile() {
+        PDFFiles.get(index).setName(txtName.getText());
+        PDFFiles.get(index).setSize(Double.parseDouble(txtSize.getText()));
+        PDFFiles.get(index).setPageSize(txtPageSize.getText());
+        PDFFiles.get(index).setPageCount(Integer.valueOf(txtPageCount.getText()));
+        PDFFiles.get(index).setTitle(txtTitle.getText());
+        PDFFiles.get(index).setMatter(txtMatter.getText());
+        PDFFiles.get(index).setKeyWords(txtKeyWords.getText());
+        PDFFiles.get(index).setTypePDFFile(txtTypePDFFile.getText());
+        PDFFiles.get(index).setVersion(txtPDFVersion.getText());
+        PDFFiles.get(index).setCreationApp(txtCreationApp.getText());
+        PDFFiles.get(index).setImages(Integer.valueOf(txtImages.getText()));
+        PDFFiles.get(index).setFonts(Integer.valueOf(txtFonts.getText()));
+        PDFFiles.get(index).setSummary(rtxtResumen.getText());
     }
 
     private void setInfo(){
@@ -121,9 +134,12 @@ public class HelloController {
         txtCreationApp.setText(PDFFiles.get(index).getCreationApp());
         txtImages.setText(String.valueOf(PDFFiles.get(index).getImages()));
         txtFonts.setText(String.valueOf(PDFFiles.get(index).getFonts()));
+        rtxtResumen.setText(PDFFiles.get(index).getSummary());
     }
 
-    public void forwardFile(MouseEvent event) throws IOException {
+    public void forwardFileUpload() {
+        changePDFFile();
+
         if (index == PDFFiles.size() - 1){
             index = 0;
         } else{
@@ -132,7 +148,9 @@ public class HelloController {
         setInfo();
     }
 
-    public void backwardFile(MouseEvent event) throws IOException {
+    public void backwardFileUpload() {
+        changePDFFile();
+
         if (index == 0){
             index = PDFFiles.size() - 1;
         } else{
@@ -140,8 +158,28 @@ public class HelloController {
         }
         setInfo();
     }
-    public void clickLoadBtn() throws IOException {
 
+    public void forwardFileUploaded() {
+        if (index == PDFFiles.size() - 1){
+            index = 0;
+        } else{
+            index++;
+        }
+        setInfo();
     }
 
+    public void backwardFileUploaded() {
+        if (index == 0){
+            index = PDFFiles.size() - 1;
+        } else{
+            index--;
+        }
+        setInfo();
+    }
+
+    public void clickLoadBtn() {
+        PDFFiles = null;
+        PDFFiles = reader.readFiles();
+        setInfo();
+    }
 }
