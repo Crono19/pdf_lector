@@ -1,346 +1,268 @@
-[jsp#home 1/1
+[Pablo Andrés Mazariegos Hernández – 1541522 
  
-RECIBO DE DECLARACIÓN DE IMPUESTOS
-DATOS DE LA DECLARACION RECIBIDA
-Código del Formulario: SAT-2000
-Número de Formulario: 37 403 375 105
-Importe Pagado: Q 1,007, Cuenta a Debitar: 3033051948 - ANABELLA DEL ROSARIO ALVARADO MI
-Número de Operación: 0162023011414080792717368
-Fecha de la Operación: 14/ENE/2023
-Hora de la Operación: 14:08:24
-Sistema de envío: BancaSAT Web
-Número de Transacción: 827401084
-200374033751050161,,007]ESTE ES EL SEPARADOR DE RESUMENES:
-[jsp#home 1/1
+• ¿Cómo se almacena una grabación de audio? 
  
-RECIBO DE DECLARACIÓN DE IMPUESTOS
-DATOS DE LA DECLARACION RECIBIDA
-Código del Formulario: SAT-2000
-Número de Formulario: 37 403 366 213
-Importe Pagado: Q 596, Cuenta a Debitar: 3033051948 - ANABELLA DEL ROSARIO ALVARADO MI
-Número de Operación: 0162023011414094592717377
-Fecha de la Operación: 14/ENE/2023
-Hora de la Operación: 14:10:02
-Sistema de envío: BancaSAT Web
-Número de Transacción: 827401374
-20037403366213016596]ESTE ES EL SEPARADOR DE RESUMENES:
-[Mantenga en secreto el Número de Acceso pues permite ver todo el formulario, SAT
-Superintendencia de
-Administración Tributaria
-VEHÍCULOS CIRCULACIÓN SAT-4091
-Release 1
-Número de Acceso
-126 321 460
-Impuesto Sobre Circulación de Vehículos (ISCV), Número de Formulario
-37 403 375 105
-1 de 4: En preparación Número de Contingencia
-Aclaraciones
-a) ¿Quiénes pueden utilizar este formulario?
-Todo poseedor de un vehículo terrestre, A excepción de los Usos “Cuerpo Consular, Cuerpo Diplomático y Misión
-Internacional” quienes deberán presentarse a solicitar su calcomanía en la Agencia de la SAT en el Ministerio de
-Relaciones Exteriores, b) ¿Cómo se usa este formulario?
-•   Sí desea pagar el impuesto de circulación de más de un vehículo seleccione la opción “Dos o más”
-•   Llene, valide y congele este formulario, •   Pague el SAT-2000 en un banco (por banca electrónica o en agencia bancaria), •   Imprima la calcomanía electrónica ingresando al Portal SAT Vehículos Consulta
-c) ¿Dónde debo portar la calcomanía?
-Guárdela en el interior del vehículo o pórtela al conducir, d) ¿Debo pagar antes las multas de tránsito?
-Sí, señor contribuyente para poder imprimir la calcomanía debe estar solvente de las infracciones de tránsito, Si
-su vehículo tiene multas de tránsito aparecerá el link "Ver infracciones de tránsito"
-e) ¿Cuándo debe pagarse este impuesto?
-Del 1 de enero al 31 de julio de cada año, Luego de ese plazo corresponde multa por omisión, intereses y mora, BÚSQUEDA EN EL REGISTRO FISCAL DE VEHÍCULOS (RFV)
-¿De cuántos vehículos va a pagar?
-  Uno (deberá ingresar la placa y el NIT)
-  Dos o más (deberá ingresar la placa de cualquiera de ellos, su respectiva Tarjeta de Circulación y el NIT)
-Placa de circulación
-Elija el prefijo y escriba el número de la placa actual 250HZF
-NIT del propietario
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO 7563787
-2, gt/declaraguate-web/ 2/2
-Esta es la fecha máxima en que el banco aceptará el pago de este formulario, Si no lo
-realiza en esta fecha, deberá llenar otro para determinar el nuevo monto a pagar, DETERMINACIÓN DEL TOTAL A PAGAR
-Sí seleccionó “Dos o más” use la opción “Posponer” si desea quitar un vehículo que aún no va a pagar]ESTE ES EL SEPARADOR DE RESUMENES:
-[Mantenga en secreto el Número de Acceso pues permite ver todo el formulario, SAT
-Superintendencia de
-Administración Tributaria
-VEHÍCULOS CIRCULACIÓN SAT-4091
-Release 1
-Número de Acceso
-699 688 922
-Impuesto Sobre Circulación de Vehículos (ISCV), Número de Formulario
-37 403 366 213
-2 de 4: Validado Número de Contingencia
-Aclaraciones
-a) ¿Quiénes pueden utilizar este formulario?
-Todo poseedor de un vehículo terrestre, A excepción de los Usos “Cuerpo Consular, Cuerpo Diplomático y Misión
-Internacional” quienes deberán presentarse a solicitar su calcomanía en la Agencia de la SAT en el Ministerio de
-Relaciones Exteriores, b) ¿Cómo se usa este formulario?
-•   Sí desea pagar el impuesto de circulación de más de un vehículo seleccione la opción “Dos o más”
-•   Llene, valide y congele este formulario, •   Pague el SAT-2000 en un banco (por banca electrónica o en agencia bancaria), •   Imprima la calcomanía electrónica ingresando al Portal SAT Vehículos Consulta
-c) ¿Dónde debo portar la calcomanía?
-Guárdela en el interior del vehículo o pórtela al conducir, d) ¿Debo pagar antes las multas de tránsito?
-Sí, señor contribuyente para poder imprimir la calcomanía debe estar solvente de las infracciones de tránsito, Si
-su vehículo tiene multas de tránsito aparecerá el link "Ver infracciones de tránsito"
-e) ¿Cuándo debe pagarse este impuesto?
-Del 1 de enero al 31 de julio de cada año, Luego de ese plazo corresponde multa por omisión, intereses y mora, BÚSQUEDA EN EL REGISTRO FISCAL DE VEHÍCULOS (RFV)
-¿De cuántos vehículos va a pagar?
-  Uno (deberá ingresar la placa y el NIT)
-  Dos o más (deberá ingresar la placa de cualquiera de ellos, su respectiva Tarjeta de Circulación y el NIT)
-Placa de circulación
-Elija el prefijo y escriba el número de la placa actual P0 252HYB
-NIT del propietario
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO 7563787
-14/1/23, 14:00 Catalogo
-https://declaraguate, FECHA PARA DETERMINAR EL PAGO
-Esta es la fecha máxima en que el banco aceptará el pago de este formulario, Si no lo realiza en esta
-fecha, deberá llenar otro para determinar el nuevo monto a pagar, DETERMINACIÓN DEL TOTAL A PAGAR
-Sí seleccionó “Dos o más” use la opción “Posponer” si desea quitar un vehículo que aún no va a pagar]ESTE ES EL SEPARADOR DE RESUMENES:
-CUI:................................ 1664140691105
-Original
-Forma 2000-SAT-SCC
-274,033,662
-Fecha de impresión:... 14/01/2023
-Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
-Correlativo CGC No.
-SAT
-Superintendencia de
-Administración Tributaria
-BOLETA DECLARAGUATE
-Presentar vía ventanilla bancaria o banca electrónica
-Código de formulario
-SAT-2000
-Fecha máxima en que el banco aceptará esta boleta:
-Si al presentar esta boleta el impuesto ya venció, estará sujeto al pago de multa, intereses, y/o mora, si corresponde.
-19/02/2023.
-Cuando se presenta en ventanilla bancaria,
-Monto a pagar
-Q 596.09
-Número de contingencia
-596 094 497 600 360 500
-37 403 366 213
-Número de formulario
-Firma del contribuyente o representante legal
-Declaración del contribuyente o representante legal
-Por medio de esta boleta presento el formulario llenado en el sistema Declaraguate con los datos:
-Código:........................... SAT-4091
-Nombre:.........................  VEHÍCULOS CIRCULACIÓN
-Número:......................... 37 403 366 213
-Período de imposición:...
-Nombre o razón social del contribuyente:.ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-enero - diciembre de 2023
-NIT del contribuyente:.... 7563787
-máquina registradora en el reverso de esta hoja.
-válido únicamente por el importe impreso por la
-CUI:................................ 1664140691105
-Fecha de impresión:... 14/01/2023
-Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
-Correlativo CGC No.
-Duplicado
-Número de acceso
-Forma 2000-SAT-SCC
-274,033,662
-699688922
-ESTE ES EL SEPARADOR DE RESUMENES:
-CUI:................................ 1664140691105
-Original
-Forma 2000-SAT-SCC
-274,033,751
-Fecha de impresión:... 14/01/2023
-Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
-Correlativo CGC No.
-SAT
-Superintendencia de
-Administración Tributaria
-BOLETA DECLARAGUATE
-Presentar vía ventanilla bancaria o banca electrónica
-Código de formulario
-SAT-2000
-Fecha máxima en que el banco aceptará esta boleta:
-Si al presentar esta boleta el impuesto ya venció, estará sujeto al pago de multa, intereses, y/o mora, si corresponde.
-19/02/2023.
-Cuando se presenta en ventanilla bancaria,
-Monto a pagar
-Q 1,007.50
-Número de contingencia
-1 007 504 497 600 631 490
-37 403 375 105
-Número de formulario
-Firma del contribuyente o representante legal
-Declaración del contribuyente o representante legal
-Por medio de esta boleta presento el formulario llenado en el sistema Declaraguate con los datos:
-Código:........................... SAT-4091
-Nombre:.........................  VEHÍCULOS CIRCULACIÓN
-Número:......................... 37 403 375 105
-Período de imposición:...
-Nombre o razón social del contribuyente:.ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-enero - diciembre de 2023
-NIT del contribuyente:.... 7563787
-máquina registradora en el reverso de esta hoja.
-válido únicamente por el importe impreso por la
-CUI:................................ 1664140691105
-Fecha de impresión:... 14/01/2023
-Autorización Resolución CGC No.  Gestión No.  De Fecha null Correlativo null De Fecha null E. Fiscal  De Fecha null Autorizado del null Al null Libro  Folio .
-Correlativo CGC No.
-Duplicado
-Número de acceso
-Forma 2000-SAT-SCC
-274,033,751
-126321460
-ESTE ES EL SEPARADOR DE RESUMENES:
-[-
-Calcomanía Electrónica
-de Circulación (Web)
-Código del vehículo
-    Guatemala
-Centro América
-Año Placa
-P0250HZF
-             Si desea puede recortar la calcomanía y luego doblarla al medio por la línea gruesa
-2023
-2021 59199 8- -
-Fecha de Impresión
-ANABELLA DEL ROSARIO, ALVARADO MIRANDA
-Tipo de vehículo: CAMIONETA
-Marca: SUZUKI
-Línea:  VITARA 1, 6 GL AT
-4071-202102073968
-Color:  PLATEADO
-4201-202102090438
-14/01/2023
-DATOS DEL VEHÍCULO
-Nombre del propietario:
-Número de tarjeta de circulación vigente:
-Número de certificado de propiedad
-Portar esta calcomanía al circular con el
-vehículo, las autoridades competentes podrán
-solicitarla]ESTE ES EL SEPARADOR DE RESUMENES:
-[-
-Calcomanía Electrónica
-de Circulación (Web)
-Código del vehículo
-    Guatemala
-Centro América
-Año Placa
-P0252HYB
-             Si desea puede recortar la calcomanía y luego doblarla al medio por la línea gruesa
-2023
-2019 21492 4- -
-Fecha de Impresión
-ANABELLA DEL ROSARIO, ALVARADO MIRANDA
-Tipo de vehículo: AUTOMOVIL
-Marca: VOLKSWAGEN
-Línea:  POLO HB
-4071-202102037964
-Color:  ROJO
-4201-202102054419
-14/01/2023
-DATOS DEL VEHÍCULO
-Nombre del propietario:
-Número de tarjeta de circulación vigente:
-Número de certificado de propiedad
-Portar esta calcomanía al circular con el
-vehículo, las autoridades competentes podrán
-solicitarla]ESTE ES EL SEPARADOR DE RESUMENES:
-[202102054419
-CÓDIGO ÚNICO IDENTIFICADOR
- 2019 - 21492 - 4
-Válida hasta: 31/07/2024
-NIT: 7563787 NOMBRE:
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-USO: PARTICULAR PLACA: P0 - 252HYB
-TIPO: AUTOMOVIL MARCA: VOLKSWAGEN
-LÍNEA: POLO HB MODELO: 2018
-CHASIS: WVWZZZ60ZJT106630 VIN: WVWZZZ60ZJT106630
-SERIE: WVWZZZ60ZJT106630 MOTOR: CLS 635253
-ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
-Usuario: 7563787
-Fecha: 14/01/2023
-Hora: 14:15:55
-Fecha de 
-Registro:
-3/02/2021
-COMPLETADOREPORTE
-Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
-Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
-Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
-Artículo 10 literal a), Edgar René Mazariegos
-Jefe del Departamento de Tránsito 
-de PNC
-Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
-consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
-[202102090438
-CÓDIGO ÚNICO IDENTIFICADOR
- 2021 - 59199 - 8
-Válida hasta: 31/07/2024
-NIT: 7563787 NOMBRE:
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-USO: PARTICULAR PLACA: P0 - 250HZF
-TIPO: CAMIONETA MARCA: SUZUKI
-LÍNEA: VITARA 1, 6 GL AT MODELO: 2020
-CHASIS: TSMYD21S4LM755704 VIN: TSMYD21S4LM755704
-SERIE: TSMYD21S4LM755704 MOTOR: M16A-2327616
-ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
-Usuario: 7563787
-Fecha: 14/01/2023
-Hora: 14:16:25
-Fecha de 
-Registro: 16/02/2021
-COMPLETADOREPORTE
-Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
-Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
-Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
-Artículo 10 literal a), Edgar René Mazariegos
-Jefe del Departamento de Tránsito 
-de PNC
-Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
-consigna en la Tarjeta de Circulación, 202102054419
-CÓDIGO ÚNICO IDENTIFICADOR
- 2019 - 21492 - 4
-Válida hasta: 31/07/2024
-NIT: 7563787 NOMBRE:
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-USO: PARTICULAR PLACA: P0 - 252HYB
-TIPO: AUTOMOVIL MARCA: VOLKSWAGEN
-LÍNEA: POLO HB MODELO: 2018
-CHASIS: WVWZZZ60ZJT106630 VIN: WVWZZZ60ZJT106630
-SERIE: WVWZZZ60ZJT106630 MOTOR: CLS 635253
-ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
-Usuario: 7563787
-Fecha: 14/01/2023
-Hora: 14:15:55
-Fecha de 
-Registro: 3/02/2021
-COMPLETADOREPORTE
-Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
-Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
-Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
-Artículo 10 literal a), Edgar René Mazariegos
-Jefe del Departamento de Tránsito 
-de PNC
-Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
-consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
-[202102090438
-CÓDIGO ÚNICO IDENTIFICADOR
- 2021 - 59199 - 8
-Válida hasta: 31/07/2024
-NIT: 7563787 NOMBRE:
-CUI: 1664140691105 ALVARADO,MIRANDA,,ANABELLA,DEL ROSARIO
-USO: PARTICULAR PLACA: P0 - 250HZF
-TIPO: CAMIONETA MARCA: SUZUKI
-LÍNEA: VITARA 1, 6 GL AT MODELO: 2020
-CHASIS: TSMYD21S4LM755704 VIN: TSMYD21S4LM755704
-SERIE: TSMYD21S4LM755704 MOTOR: M16A-2327616
-ASIENTOS: 5 EJES: 2 CILINDROS: 4 C, : 0
-Usuario: 7563787
-Fecha: 14/01/2023
-Hora: 14:16:25
-Fecha de 
-Registro:
-16/02/2021
-COMPLETADOREPORTE
-Acuerdo Gubernativo 134-2014 Reglamento de la Ley del Impuesto Sobre Circulación de
-Vehículos Terrestres, Marítimos y Aéreos, Artículo 20; Decreto 132-96 Ley de Tránsito
-Artículo 18 literal a); y Acuerdo Gubernativo 273-98 Reglamento de la Ley de Tránsito,
-Artículo 10 literal a), Edgar René Mazariegos
-Jefe del Departamento de Tránsito 
-de PNC
-Podrá verificar la autenticidad de este distintivo electrónico, a través del Código QR que se 
-consigna en la Tarjeta de Circulación]ESTE ES EL SEPARADOR DE RESUMENES:
+El sonido se convierte en una señal digital, Esta señal digital se almacena en la 
+computadora como un archivo de audio, Para convertir la señal digital a sonido 
+nuevamente, se utiliza un dispositivo llamado DAC, que convierte la señal digital en una 
+señal analógica y esta se reproduce en los altavoces o audífonos, Cada tipo de archivo de audio tiene un método propio de conversión a señal digital 
+(unos y ceros), Mientras que algunos premian la calidad, otros premian el tamaño del 
+archivo reducido, • ¿Cómo se guardan las partidas de los juegos? 
+ 
+La respuesta depende del tipo y modelo de la consola, ya que los métodos más antiguos 
+son totalmente diferentes a los métodos modernos, Para aproximarnos a una respuesta, asumiremos que hablamos de una consola 
+moderna, como una PS5, El almacenamiento 
+interno de una PS5 es un SSD, que es un tipo de almacenamiento más rápido que las 
+tarjetas de memoria, Esto significa que las partidas de los juegos se cargan más rápido, • ¿Cómo se guarda la información de mi editor de texto? 
+ 
+Suponiendo que hablamos del editor de texto más común, Word (que genera un archivo, El procesador de texto de Word toma el contenido del documento y lo convierte 
+a un formato binario, El formato binario se almacena en el disco duro de la computadora, La computadora crea un índice del documento en el disco duro, El índice permite a la computadora encontrar rápidamente el contenido del 
+documento cuando lo abres, • ¿Cómo se guarda la información de una diapositiva? 
+ 
+Si hablamos de una diapositiva con extensión, El software de creación de PDF toma el contenido del documento y lo convierte a 
+un formato de archivo PDF, El formato binario se almacena en el disco duro de la computadora, La computadora crea un índice del documento en el disco duro, El índice permite a la computadora encontrar rápidamente el contenido del 
+documento cuando lo abres, Ya que PDF no es un editor de texto, sino un tipo de archivo, previamente se tuvo que 
+haber realizado una conversión del formato original del archivo al formato, • ¿Cómo ve el usuario los archivos? 
+ 
+Si hablamos de una diapositiva con extensión, El explorador de archivos solicita al sistema operativo una lista de todos los 
+archivos y carpetas que se almacenan en el disco duro, El sistema operativo consulta el índice del disco duro para obtener la lista de 
+archivos y carpetas, El explorador de archivos muestra la lista de archivos y carpetas en la ventana del 
+explorador de archivos, El usuario puede navegar por la lista de archivos y carpetas para encontrar el archivo que 
+está buscando, Cuando el usuario hace doble clic en un archivo, el explorador de 
+archivos solicita al sistema operativo que abra el archivo]ESTE ES EL SEPARADOR DE RESUMENES:
+[Tipos de archivos de acuerdo a su organización y operaciones sobre estos 
+• Estructura jerárquica 
+El nivel más alto lo constituye la base de datos y el nivel más bajo el carácter, ya que se 
+organizan de modo jerárquico, Los conceptos de carácter, campo, registro, archivo y 
+base de datos son conceptos lógicos que se refieren al medio en que el usuario de 
+computadoras ve los datos y se organizan, o Campos: Un campo es un ítem o elemento de datos elementales, tales como un 
+nombre, número de empleados, ciudad, número de identificación, etc, Un campo esta caracterizado por su tamaño y tipo de dato, Un registro es una colección 
+de información que, relacionada entre sí, tiene un significado para el usuario, Un ejemplo es un empleado, que tiene nombre, apellidos, fecha de nacimiento, 
+etc, o Archivos: Un archivo, también denominado fichero, es un conjunto de registros, Un ejemplo de fichero es un salon de clases, ya que tiene un conjunto de 
+estudiantes, Un campo es un ítem o elemento de datos elementales, tales como un nombre, 
+número de empleados, ciudad, número de identificación, etc, o Base de datos: Es una colección de archivos a los que se pueden acceder mediante 
+gestores de bases de datos, • Terminología 
+o Clave: Es un campo que identifica a un registro, como los nombres o número de 
+identificación, o Registro físico o bloqueo: Un registro físico o bloque es la cantidad más pequeña 
+de datos que pueden transferirse en una operación de entrada/salida entre la 
+memoria central y los dispositivos periféricos o viceversa, o Factor de bloqueo: El número de registros lógicos que puede contener un 
+registro físico se denomina factor de bloque, En un bloque que contienen varios registros 
+físicos por bloque; se denominan registros expandidos, El factor de bloqueo es 1 y se dice que los 
+registros no están bloqueados, El factor de bloqueo es mayor que 1 y los 
+registros están bloqueados, • Organización de archivos  
+El soporte es el medio físico donde se almacenan los datos, Existen dos tipos de soportes: 
+o Soportes secuenciales: son aquéllos en los que los registros informaciones están 
+escritos unos a continuación de otros y para acceder a un determinado registro, 
+n se necesita pasar por los n-1 registros anteriores, o Soportes direccionables: se estructuran de modo que las informaciones 
+registradas se pueden localizar directamente por su dirección y no se requiere 
+pasar por los registros precedentes, Existen dos tipos de accesos a los registros de un archivo: 
+o Acceso secuencial: implica el acceso a un archivo según el orden de 
+almacenamiento de sus registros, uno tras otro, o Acceso directo: implica el acceso a un registro determinado, sin que ello 
+implique la consulta de los registros precedentes, La organización de un archivo define la forma en la que los registros se disponen sobre 
+el soporte de almacenamiento, o también se define la organización como la forma en 
+que se estructuran los datos en un archivo, Existen tres tipos de organizaciones: 
+o Organización secuencial: La organización de un archivo define la forma en la 
+que los registros se disponen sobre el soporte de almacenamiento, o también se 
+define la organización como la forma en que se estructuran los datos en un 
+archivo 
+o Organización directa o aleatoria (Random): Un archivo está organizado en modo 
+directo cuando el orden físico no se corresponde con el orden lógico, Los datos 
+se sitúan en el archivo y se accede a ellos directa aleatoriamente mediante su 
+posición, es decir, el lugar relativo que ocupan, Esta organización tiene la ventaja de que se pueden leer y escribir registros en 
+cualquier orden y posición, o Organización secuencial indexada (Indexed): Son archivos que manejan dos 
+archivos realmente, uno de datos y otro de índices, Un diccionario es un ejemplo 
+de ello, ya que tiene un índice al que se puede acceder específicamente y no se 
+necesita acceder a todos los registros anteriores, • Operaciones sobre archivos 
+o Creación: Es la primera operación que sufrirá el archivo de datos, Implica la 
+elección de un entorno descriptivo que permita un ágil, rápido y eficaz 
+tratamiento del archivo, Para utilizar un archivo, éste tiene que existir, es decir, 
+las informaciones de este archivo tienen que haber sido almacenados sobre un 
+soporte y ser utilizables, o Consulta: Es la operación que le permite al usuario acceder al contenido en 
+repetidas ocasiones, Para esto es necesario 
+modificar los campos que un registro tenga, o Clasificación: También llamada ordenación, permite mantener un orden 
+específico para un archivo, o Reorganización: Consiste en la copia de un nuevo archivo a partir del archivo 
+modificado, a fin de obtener una nueva estructura lo más óptima posible, o Reunión, fusion:  
+o Reunión: Se obtiene un archivo a partir de otros, o Fusión: Se realiza una fusión cuando se reúnen varios archivos en uno 
+solo, intercalándose unos en otros, siguiendo unos criterios 
+determinados, a) Rotura / estallido: Es la operación de obtener varios archivos a partir de un 
+mismo archivo inicial, • Gestión de archivos 
+Las operaciones más usuales en los registros son: 
+o Consulta: lectura del contenido de un registro, Las operaciones más usuales sobre los archivos son: 
+o Creación: Es la operación mediante la cual se introduce la información 
+correspondiente al archivo en un soporte de almacenamiento de datos, o Abrir: Es permitir al usuario localizar y acceder a los archivos que fueron creados 
+anteriormente, o Ampliación: Es permitir al usuario incrementar el tamaño de un archivo, o Cerrar: El propósito de la operación de cerrar un archivo es permitir al usuario 
+cortar el acceso o detener el uso del archivo, permitiendo a otros usuarios 
+acceder al archivo, o Borrar: Tiene como objetivo la supresión de un archivo del soporte o dispositivo, El espacio utilizado por un archivo borrado puede ser utilizado para otros 
+archivos, • Mantenimiento de archivos 
+Son todas las operaciones que sufre un archivo desde su creacoón hasta su modificación, Existen distintas operaciones, entre las que están: 
+o Altas: Consiste en la adición de un nuevo registro, o Bajas: Es la acción de eliminar un registro de un archivo, o Modificaciones: En la operación de cambiar total o parcialmente el contenido 
+de uno de sus registros, o Consulta: Tiene como fin visualizar la información contenida en el archivo, bien 
+de un modo completo- bien de modo parcial-, examen de uno o más registros, • Algoritmos para manipular archivos secuenciales 
+En un archivo secuencial los registros se insertan en el archivo en orden cronológico de 
+llegada al soporte, es decir, un registro de datos se almacena inmediatamente a 
+continuación del registro anterior, Los archivos secuenciales termina con una marca final de archivo (FF o EOF), Los métodos para manipular dichos archivos son: 
+o Creación: La creación de un archivo secuencial es un proceso secuencial, ya que 
+los registros se almacenan consecutivamente en el mismo orden en que se 
+introducen en el archivo, La operación de crear un archivo tiene dos variantes: 
+o Crear el archivo original (1); 
+o Añadir datos al archivo ya creado y a continuación del ultimo registro 
+del mismo (2) 
+o Consulta: El proceso de búsqueda o consulta de una información en un archivo 
+de organización secuencial se debe efectuar obligatoriamente en modo 
+secuencial, La búsqueda en lugar de ser secuencial se podría realizar por el método binario, 
+lo que reducirá considerablemente en tiempo, o Actualización de un archivo: 
+▪ Altas: La operación de alta supone la creación nueva del archivo, ya que 
+un archivo secuencial no admite la incorporación de nuevos registros, ▪ Bajas: Se utiliza un archivo transitorio, para posteriormente almacenar 
+en un array todos los registros del archivo y señalar el que se desea 
+eliminar, para mover los punteros de las conexiones entre registros, ▪ Modificaciones: El proceso de modificación de un registro consiste en 
+localizar este registro, efectuar dicha modificación y a continuación 
+rescribir el nuevo registro en el archivo, • Procesamiento de archivos de acceso directo 
+Los archivos aleatorios o de acceso directo tienen una gran rapidez de acceso 
+comparados con los secuenciales; son fáciles de referenciar número de ordendel 
+registro, y la facilidad de mantenimiento, La lectura/escritura de un registro es rápida, ya que se accede directamente al registro 
+y no se necesita recorrer los anteriores, Los métodos para manipular dichos archivos son: 
+o Creación: El proceso de creación de un archivo directo o aleatorio consiste en ir 
+introduciendo los sucesivos registros en el soporte que los va a contener y en la 
+detección obtenida resultante del algoritmo de conversión, o Altas: Se debe introducir su número de orden y contenido, o Consulta: El proceso de consulta de un archivo o aleatorio es rápido y debe 
+comenzar con la entrada del número o números de registros a consultar, ▪ Definir clave del registro buscado 
+▪ Aplicar algoritmo de conversión clave a dirección 
+▪ Lectura del registro ubicado en la dirección obtenida 
+▪ Comparación de las claves de los registros leído y buscado 
+▪ Exploración secuencial del área de excedentes, ni no se encuentra 
+elregistro en esta área es que no existe, o Bajas: Para realizar una baja se toma un campo indicador en el que su valor sea 
+0, y cuando exista, se pone a 1, Este tipo de una baja lógica, que significa que, 
+pese a usar un registro dado de baja, sigue ocupando el mismo espacio que si 
+estuviera presente, o Modificaciones: En un archivo aleatorio se localiza el registro que se desea 
+modificar número de registro; se modifica el contenido y se reescribe, • Tratamiento de las colisiones 
+Las colisiones son inevitables, se originan cuando dos registros de claves diferentes 
+producen la misma dirección relativa, En estos casos las colisiones se pueden tratar de dos 
+formas diferentes, o Buscar una nueva dirección libre en el mismo espacio del archivo, o Asignar el registro a la primera posición libre de la zona de excedentes, • Procesamiento de archivos secuanciales indexados 
+Una de las grandes ventajas de utilizar un índice con un archivo de datos secuenciales es 
+que la adición de registros pueden realizarse mucho más rápidamente que con un archivo 
+datos clasificados, siempre que el índice sea pequeño para poder alojarse en memoria 
+El almacenamiento del área de índices en memoria, mientras el programa se ejecuta, 
+permite encontrar los registros por clave más rápidamente con un archivo indexado que 
+con uno clasificado, ya que la búsqueda binaria puede ejecutarse completamente en 
+memoria]ESTE ES EL SEPARADOR DE RESUMENES:
+[Scanner; 
+ 
+class HelloWorld { 
+    public static void main(String[] args) { 
+        Scanner scanner = new Scanner(System, in); 
+        int choice; 
+ 
+        do { 
+            System, println("Menu:"); 
+            System, Comparar numeros"); 
+            System, Verificar mayuscula"); 
+            System, Verificar edad"); 
+            System, Administrar actividades semanales"); 
+            System, Salir"); 
+            System, print("Elige una opcion: "); 
+            choice = scanner, nextInt(); 
+ 
+            switch (choice) { 
+                case 1: 
+                    compareNumbers(scanner); 
+                    break; 
+                case 2: 
+                    checkCapitalLetter(scanner); 
+                    break; 
+                case 3: 
+                    checkAge(scanner); 
+                    break; 
+                case 4: 
+                    manageActivities(scanner); 
+                    break; 
+                case 0: 
+                    System, "); 
+                    break; 
+                default: 
+                    System, "); 
+                    break; 
+            } 
+ 
+        } while (choice != 0); 
+    } 
+     
+    public static void compareNumbers(Scanner scanner) { 
+        System, print("Ingresa el primer numero: "); 
+        int num1 = scanner, nextInt(); 
+ 
+        System, print("Ingresa el segundo numero: "); 
+        int num2 = scanner, nextInt(); 
+ 
+        if (num1 > num2) { 
+            System, println(num1 + " es mayor que " + num2); 
+        } else if (num2 > num1) { 
+            System, println(num2 + " es mayor que " + num1); 
+        } else { 
+            System, "); 
+        } 
+    } 
+ 
+    public static void checkCapitalLetter(Scanner scanner) { 
+        System, print("Ingresa una cadena de texto: "); 
+        String text = scanner, next(); 
+ 
+        if (Character, charAt(0))) { 
+            System, "); 
+        } else { 
+            System, "); 
+        } 
+    } 
+ 
+    public static void checkAge(Scanner scanner) { 
+        System, print("Ingresa una edad: "); 
+        int age = scanner, nextInt(); 
+ 
+        if (age > 18) { 
+            System, println("Tiene permisos de instalacion"); 
+        } else { 
+            System, exit(0); 
+        } 
+    } 
+ 
+    public static void manageActivities(Scanner scanner) { 
+        String[] activities = new String[7]; 
+        for (int i = 0; i < activities, length; i++) { 
+            System, print("Ingresa la actividad para el dia " + (i + 1) + ": "); 
+            activities[i] = scanner, next(); 
+        } 
+ 
+        System, print("Ingresa el dia de la semana (1-7) para ver la actividad: "); 
+        int day = scanner, nextInt(); 
+ 
+        if (day >= 1 && day <= 7) { 
+            System, println("Actividad para el dia " + day + ": " + activities[day - 1]); 
+        } else { 
+            System, "); 
+        } 
+    } 
+}]ESTE ES EL SEPARADOR DE RESUMENES:
+[Manejo E Implementación De Archivos 
+ 
+ 
+Nombres: Pablo Andrés Mazariegos Hernández, Juan Diego Marroquín Escobar 
+Sistema de Archivos 
+1, Que son los archivos 
+Son unidades lógicas de información creada por los procesos, Son almacenados en 
+direcciones de memoria dentro de un disco de almacenamiento, A que se le llama persistencia 
+La información que se almacena en los archivos debe ser persistente, es decir, no debe 
+ser afectada por la creación y terminación de los procesos, Como se administran los archivos 
+Son administrados por el sistema operativo; aunque la manera en cómo se estructuran, 
+abren, utilizan, protegen, implementan y administran son tareas del sistema de 
+archivos, que es parte del sistema operativo, Como se manejan los nombres de archivos o la asignación de nombres en un sistema 
+de archivos  
+Cuando un en proceso creamos archivos le debemos proporcionar una manera de 
+identificación, en este caso, un nombre, Cuando terminamos el proceso el archivo 
+continúa guardado y existiendo dentro de nuestra computadora para posteriormente 
+ser utilizado por otros procesos mediante la manera en que lo identificamos (nombre), Cuando hablamos de la identificación de archivos dependerá mucho de los sistemas 
+operativos, cada sistema operativo tiene sus propias reglas de guardado, aunque 
+actualmente los sistemas operativos por lo general permiten cadenas de uno a ocho 
+letras, permiten dígitos y caracteres especiales, Cual es la importancia de establecer una extensión al nombre de los archivos y que 
+tipos existen, Es de vital importancia, ya que con las extensiones la computadora puede saber qué 
+programa debe utilizar para abrir determinados archivos, A cada extensión se le asignar 
+un programa para que ejecute todos los archivos con la misma, Como se cambiar la extensión de un archivo 
+Remplazando letras después del punto en el nombre del archivo, La información no se 
+pierde, solo se cambia el tipo de archivo]ESTE ES EL SEPARADOR DE RESUMENES:

@@ -1,11 +1,4 @@
-Banrural - Camioneta.pdf/___/72077.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36/___/1/___/0
-Banrural - Polo.pdf/___/71546.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36/___/1/___/0
-Declaraguate camioneta.pdf/___/105514.0/___/Carta/___/2/___/null/___/null/___/null/___/PDF/___/1.4/___/Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36/___/6/___/0
-Declaraguate polo.pdf/___/103072.0/___/Carta/___/2/___/null/___/null/___/null/___/PDF/___/1.4/___/Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36/___/6/___/0
-NIT-7563787-PER-2023-01-COD-4091-NRO-37403366213-BOLETA.pdf/___/41848.0/___/Oficio/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/JasperReports (Boleta_SAT2000)/___/3/___/0
-NIT-7563787-PER-2023-01-COD-4091-NRO-37403375105-BOLETA.pdf/___/42200.0/___/Oficio/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/JasperReports (Boleta_SAT2000)/___/3/___/0
-P0250HZFCalcomania.pdf/___/32462.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/JasperReports (Calcomania_CE)/___/2/___/0
-P0252HYBCalcomania.pdf/___/32137.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.4/___/JasperReports (Calcomania_CE)/___/2/___/0
-POLO.pdf/___/275155.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.5/___/BIRT Report Engine /srv/Tomcat7/apache-tomcat-repweb/webapps/reportes-web/WEB-INF/lib/org.eclipse.birt.runtime-4.4.2.jar./___/10/___/0
-Tarjetas.pdf/___/1092232.0/___/Carta/___/1/___/Tarjetas/___/null/___/null/___/PDF/___/1.4/___/Adobe Illustrator 27.1 (Windows)/___/16/___/0
-VITARA.pdf/___/275059.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.5/___/BIRT Report Engine /srv/Tomcat7/apache-tomcat-rep/webapps/reportes-web/WEB-INF/lib/org.eclipse.birt.runtime-4.4.2.jar./___/10/___/0
+1- Preguntas almacenamiento de archivos.pdf/___/89530.0/___/Carta/___/2/___/null/___/null/___/null/___/PDF/___/1.7/___/Microsoft® Word for Microsoft 365/___/0/___/0
+2- Tipos de archivos de acuerdo a su organización y operaciones sobre estos.pdf/___/90322.0/___/Carta/___/7/___/null/___/null/___/null/___/PDF/___/1.7/___/Microsoft Word/___/0/___/0
+6- Java.pdf/___/302574.0/___/Carta/___/3/___/null/___/null/___/null/___/PDF/___/1.5/___/Microsoft® Word 2016/___/0/___/0
+Preguntas páginas 255-258.pdf/___/154188.0/___/Carta/___/1/___/null/___/null/___/null/___/PDF/___/1.7/___/Microsoft® Word for Microsoft 365/___/1/___/0
