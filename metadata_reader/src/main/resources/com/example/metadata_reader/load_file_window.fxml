@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.layout.*?>
-<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="766.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.metadata_reader.HelloController">
+<AnchorPane prefHeight="676.0" prefWidth="673.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.metadata_reader.HelloController">
    <children>
       <ImageView fitHeight="150.0" fitWidth="673.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <image>
@@ -17,95 +21,106 @@
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <Label layoutX="74.0" layoutY="306.0" text="Tamaño de archivo:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="75.0" layoutY="239.0" text="Tamaño de archivo:" AnchorPane.rightAnchor="503.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="75.0" layoutY="336.0" text="Tamaño de página:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="366.0" layoutY="239.0" text="Tamaño de página:" AnchorPane.rightAnchor="214.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="69.0" layoutY="366.0" text="Número de páginas:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="73.0" layoutY="272.0" text="Número de páginas:" AnchorPane.rightAnchor="501.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="135.0" layoutY="396.0" text="Título:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="139.0" layoutY="207.0" text="Título:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="132.0" layoutY="426.0" text="Asunto:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="132.0" layoutY="336.0" text="Asunto:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="97.0" layoutY="456.0" text="Palabras clave:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="97.0" layoutY="367.0" text="Palabras clave:" AnchorPane.rightAnchor="505.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="68.0" layoutY="486.0" text="Tipo de archivo PDF:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="69.0" layoutY="399.0" text="Tipo de archivo PDF:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="90.0" layoutY="516.0" text="Versión de PDF:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="374.0" layoutY="304.0" text="Versión de PDF:" AnchorPane.rightAnchor="222.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="57.0" layoutY="546.0" text="Aplicación de creación:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="57.0" layoutY="431.0" text="Aplicación de creación:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="58.0" layoutY="576.0" text="Cantidad de imagenes:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="348.0" layoutY="272.0" text="Cantidad de imagenes:" AnchorPane.rightAnchor="214.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Label layoutX="68.0" layoutY="606.0" text="Cantidad de fuentes:" AnchorPane.rightAnchor="502.0">
+      <Label layoutX="68.0" layoutY="304.0" text="Cantidad de fuentes:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <TextField fx:id="txtSize" layoutX="191.0" layoutY="301.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtPageSize" layoutX="191.0" layoutY="331.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtPageCount" layoutX="191.0" layoutY="361.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtTitle" layoutX="191.0" layoutY="391.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtMatter" layoutX="191.0" layoutY="421.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtKeyWords" layoutX="191.0" layoutY="451.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtTypePDFFile" layoutX="191.0" layoutY="481.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtPDFVersion" layoutX="191.0" layoutY="511.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtCreationApp" layoutX="191.0" layoutY="541.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtImages" layoutX="191.0" layoutY="571.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextField fx:id="txtFonts" layoutX="191.0" layoutY="601.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" />
-      <TextArea fx:id="path_text" layoutX="193.0" layoutY="129.0" prefHeight="132.0" prefWidth="427.0" />
-      <Button fx:id="load_btn1" layoutX="548.0" layoutY="702.0" mnemonicParsing="false" onMouseClicked="#forwardFileUpload" prefHeight="30.0" prefWidth="70.0" text="Siguiente" textOverrun="CENTER_ELLIPSIS">
+      <TextField fx:id="txtSize" layoutX="190.0" layoutY="234.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="190.0" />
+      <TextField fx:id="txtPageSize" layoutX="478.0" layoutY="234.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="478.0" AnchorPane.rightAnchor="55.0" />
+      <TextField fx:id="txtPageCount" layoutX="191.0" layoutY="267.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="191.0" />
+      <TextField fx:id="txtTitle" layoutX="191.0" layoutY="202.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="55.0" />
+      <TextField fx:id="txtMatter" layoutX="190.0" layoutY="331.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="190.0" />
+      <TextField fx:id="txtKeyWords" layoutX="190.0" layoutY="362.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="190.0" />
+      <TextField fx:id="txtTypePDFFile" layoutX="190.0" layoutY="394.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="190.0" />
+      <TextField fx:id="txtPDFVersion" layoutX="478.0" layoutY="299.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="478.0" AnchorPane.rightAnchor="55.0" />
+      <TextField fx:id="txtCreationApp" layoutX="190.0" layoutY="426.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.leftAnchor="190.0" />
+      <TextField fx:id="txtImages" layoutX="480.0" layoutY="267.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="54.0" />
+      <TextField fx:id="txtFonts" layoutX="190.0" layoutY="299.0" prefHeight="26.0" prefWidth="140.0" AnchorPane.leftAnchor="190.0" />
+      <Button fx:id="load_btn1" layoutX="548.0" layoutY="623.0" mnemonicParsing="false" onMouseClicked="#forwardFileUpload" prefHeight="30.0" prefWidth="70.0" text="Siguiente" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <Button fx:id="load_btn11" layoutX="470.0" layoutY="702.0" mnemonicParsing="false" onMouseClicked="#backwardFileUpload" prefHeight="30.0" prefWidth="70.0" text="Anterior" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="load_btn11" layoutX="470.0" layoutY="623.0" mnemonicParsing="false" onMouseClicked="#backwardFileUpload" prefHeight="30.0" prefWidth="70.0" text="Anterior" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <TextField fx:id="txtName" layoutX="191.0" layoutY="270.0" prefHeight="26.0" prefWidth="427.0" />
-      <Label layoutX="128.0" layoutY="277.0" text="Nombre:" AnchorPane.rightAnchor="502.0">
+      <TextField fx:id="txtName" layoutX="191.0" layoutY="170.0" prefHeight="26.0" prefWidth="427.0" AnchorPane.rightAnchor="55.0" />
+      <Label layoutX="126.0" layoutY="177.0" text="Nombre:" AnchorPane.rightAnchor="504.0">
          <font>
             <Font size="11.0" />
          </font>
       </Label>
-      <Button fx:id="save_btn" layoutX="193.0" layoutY="702.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="30.0" prefWidth="112.0" text="Guardar archivos" textOverrun="CENTER_ELLIPSIS">
+      <Button fx:id="save_btn" layoutX="115.0" layoutY="623.0" mnemonicParsing="false" onAction="#saveFile" prefHeight="30.0" prefWidth="152.0" text="Guardar archivos" textOverrun="CENTER_ELLIPSIS">
          <font>
             <Font name="Century Gothic" size="11.0" />
          </font>
       </Button>
-      <TextArea fx:id="rtxtResumen" layoutX="192.0" layoutY="632.0" prefHeight="61.0" prefWidth="427.0" />
-      <Label layoutX="122.0" layoutY="632.0" text="Resumen:" />
+      <TextArea fx:id="rtxtResumen" layoutX="190.0" layoutY="457.0" prefHeight="145.0" prefWidth="427.0" AnchorPane.leftAnchor="190.0" />
+      <Label layoutX="109.0" layoutY="457.0" text="Resumen:">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+      <TextField fx:id="path_text" layoutX="190.0" layoutY="138.0" prefHeight="26.0" prefWidth="427.0" />
+      <Button fx:id="mainmenu" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="578.0" layoutY="24.0" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="66.0" prefWidth="55.0" text="MENÚ" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS">
+         <graphic>
+            <ImageView fitHeight="36.0" fitWidth="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@java/images/home.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
    </children>
 </AnchorPane>

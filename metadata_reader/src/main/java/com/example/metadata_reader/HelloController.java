@@ -13,6 +13,8 @@ import javafx.scene.input.MouseEvent;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.DirectoryChooser;
+
+import java.awt.*;
 import java.io.IOException;
 import java.io.File;
 import java.util.ArrayList;
@@ -30,13 +32,17 @@ public class HelloController {
     private List<PDFFile> PDFFiles = new ArrayList<>();
     private int index = 0;
 
+
+
     public void switchToUploadedFilesWindow(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("uploaded_files_window.fxml")));
         stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+        stage.centerOnScreen();
         index = 0;
+
     }
 
     public void switchToLoadFilesWindow(ActionEvent event) throws IOException {
@@ -45,12 +51,23 @@ public class HelloController {
         scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+        stage.centerOnScreen();
         index = 0;
     }
 
+    public void switchToMainMenu(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("hello-view.fxml")));
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+        stage.centerOnScreen();
+    }
+
     @FXML
-    private TextArea path_text;
+    private TextField path_text;
     final FileChooser fc = new FileChooser();
+
 
     @FXML
     void handleBtnOpenFile() {
