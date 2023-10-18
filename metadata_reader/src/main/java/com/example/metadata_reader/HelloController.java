@@ -6,15 +6,10 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
-import javafx.scene.input.MouseEvent;
-import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import javafx.stage.DirectoryChooser;
-
-import java.awt.*;
 import java.io.IOException;
 import java.io.File;
 import java.util.ArrayList;
@@ -26,8 +21,6 @@ public class HelloController {
 
     private Stage stage;
     private Scene scene;
-
-    private String path;
 
     private List<PDFFile> PDFFiles = new ArrayList<>();
     private int index = 0;
@@ -66,7 +59,6 @@ public class HelloController {
 
     @FXML
     private TextField path_text;
-    final FileChooser fc = new FileChooser();
 
 
     @FXML
@@ -80,7 +72,7 @@ public class HelloController {
 
         if (selectedDirectory != null) {
             path_text.appendText(selectedDirectory.getAbsolutePath() + "\n");
-            path = selectedDirectory.getAbsolutePath();
+            String path = selectedDirectory.getAbsolutePath();
             PDFFiles = reader.getFiles(path);
         } else {
             System.out.println("No directory selected");

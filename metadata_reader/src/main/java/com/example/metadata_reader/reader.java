@@ -65,7 +65,7 @@ public class reader {
                 Integer images = getImagesFromPDF(document).size();
                 Integer fonts = getImageFonts(document);
                 String pageSize = getPageSize(document);
-                String summarize = "";
+                String summarize;
 
                 if (getSummarize(document).isEmpty()){
                     summarize = String.valueOf(createSummarize(document));
@@ -117,7 +117,9 @@ public class reader {
         boolean isSummarySection = false;
 
         for (String line : lines) {
-            if ((line.contains("Resumen")) || (line.contains("resumen")) || (line.contains("RESUMEN"))) {
+            if (((line.contains("Resumen")) || (line.contains("resumen")) || (line.contains("RESUMEN"))
+                    || (line.contains("Presentación")) || (line.contains("presentación")) || (line.contains("PRESENTACIÓN")))
+                    && ((!line.contains("....")) && (line.length() > 10))) {
                 isSummarySection = true;
             } else if (isSummarySection && line.trim().isEmpty()) {
                 break;
